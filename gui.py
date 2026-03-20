@@ -656,8 +656,6 @@ class App:
                             row = prod_rows[0]
                             row["shop_id"] = config.SHOP_ID
                             # Inject defaults for NOT NULL columns not in API
-                            row.setdefault("brand_id", "")
-                            row.setdefault("is_composite", 0)
                             row.setdefault("created_at", None)
                             ins, upd = self.db.upsert_batches("products", prod_rows, batch_size=200)
                             total_prods_ins += ins
@@ -669,17 +667,15 @@ class App:
                             var_rows = sync_engine.transform_batch(var_data, entity)
                             for row in var_rows:
                                 row["shop_id"] = config.SHOP_ID
-                                # Inject defaults for NOT NULL columns not in API
-                                row.setdefault("retail_price", 0)
-                                row.setdefault("retail_price_original", 0)
-                                row.setdefault("avg_price", 0)
-                                row.setdefault("last_imported_price", 0)
-                                row.setdefault("tax_rate", 0)
-                                row.setdefault("is_upsale_product", 0)
-                                row.setdefault("is_sell_negative", 0)
-                                row.setdefault("total_purchase_price", 0)
-                                row.setdefault("wholesale_price", 0)
-                                row.setdefault("is_vat_inclusive", 0)
+                                # Inject defaults for ALL NOT NULL columns — transform always sets key even to None
+                                for k in ("retail_price", "retail_price_original", "avg_price",
+                                          "last_imported_price", "tax_rate", "is_upsale_product",
+                                          "is_sell_negative", "total_purchase_price", "wholesale_price",
+                                          "is_composite", "is_hidden", "is_locked", "is_removed",
+                                          "is_sell_negative_variation", "is_vat_inclusive",
+                                          "remain_quantity", "created_at"):
+                                    if row.get(k) is None:
+                                        row[k] = 0
                             ins, upd = self.db.upsert_batches(
                                 sync_engine.FIELD_MAPS[entity]["table"],
                                 var_rows, batch_size=200)
@@ -706,6 +702,14 @@ class App:
                     # Flush warehouse stock
                     ws_rows = list(all_warehouse_stock.values())
                     if ws_rows:
+                        for row in ws_rows:
+                            for k in ("remain_quantity", "actual_remain_quantity",
+                                      "pending_quantity", "waiting_quantity",
+                                      "returning_quantity", "total_quantity"):
+                                if row.get(k) is None:
+                                    row[k] = 0
+                            if row.get("selling_avg") is None:
+                                row["selling_avg"] = 0.0
                         ins, upd = self.db.upsert_batches(
                             "variation_warehouse_stock", ws_rows,
                             batch_size=config.BATCH_INSERT)
@@ -823,9 +827,24 @@ class App:
 
                     def on_page_single(data):
                         rows = sync_engine.transform_batch(data, entity)
-                        if entity in ("categories", "tags"):
-                            for row in rows:
-                                row["shop_id"] = config.SHOP_ID
+                        now = sync_engine._now_dt(None)
+                        for row in rows:
+                            row["shop_id"] = config.SHOP_ID
+                            row.setdefault("created_at", now)
+                            # Entity-specific NOT NULL defaults
+                            if entity == "warehouses":
+                                if row.get("is_default") is None:
+                                    row["is_default"] = 0
+                            elif entity == "categories":
+                                for k in ("parent_id", "sort_order", "is_active", "display_id"):
+                                    if row.get(k) is None:
+                                        row[k] = 0 if k != "parent_id" else ""
+                                if row.get("name") is None:
+                                    row["name"] = ""
+                            elif entity == "users":
+                                for k in ("display_id", "full_name", "email", "phone_number", "role", "is_active"):
+                                    if row.get(k) is None:
+                                        row[k] = "" if k in ("display_id", "full_name", "email", "phone_number", "role") else 1
                         if rows:
                             collected.extend(rows)
 
