@@ -1,0 +1,420 @@
+{
+    "data": [
+        {
+            "color": "#06f98b",
+            "groups": [],
+            "id": 32,
+            "is_system_tag": false,
+            "name": "Đồng bộ DATA"
+        },
+        {
+            "color": "#dac710",
+            "groups": [],
+            "id": 31,
+            "is_system_tag": false,
+            "name": "VP Nguyễn Tuân"
+        },
+        {
+            "color": "#31122a",
+            "groups": [],
+            "id": 30,
+            "is_system_tag": false,
+            "name": "Đã KN"
+        },
+        {
+            "color": "#f04134",
+            "groups": [
+                {
+                    "id": -1,
+                    "name": "Nhóm vận chuyển"
+                }
+            ],
+            "id": 1,
+            "is_system_tag": true,
+            "name": "Giao không thành"
+        },
+        {
+            "color": "#096dd9",
+            "groups": [],
+            "id": 2,
+            "is_system_tag": true,
+            "name": "Chờ cọc"
+        },
+        {
+            "color": "#00a2ae",
+            "groups": [],
+            "id": 3,
+            "is_system_tag": true,
+            "name": "Nhập hàng"
+        },
+        {
+            "color": "#f56a00",
+            "groups": [
+                {
+                    "id": -2,
+                    "name": "Nhóm đối soát"
+                }
+            ],
+            "id": 4,
+            "is_system_tag": true,
+            "name": "Chưa đối soát"
+        },
+        {
+            "color": "#00a854",
+            "groups": [
+                {
+                    "id": -2,
+                    "name": "Nhóm đối soát"
+                }
+            ],
+            "id": 5,
+            "is_system_tag": true,
+            "name": "Đã đối soát"
+        },
+        {
+            "color": "#ffbf00",
+            "groups": [
+                {
+                    "id": -2,
+                    "name": "Nhóm đối soát"
+                }
+            ],
+            "id": 6,
+            "is_system_tag": true,
+            "name": "Đối soát lệch"
+        },
+        {
+            "color": "#7ec2f3",
+            "groups": [],
+            "id": 7,
+            "is_system_tag": true,
+            "name": "Đổi hàng"
+        },
+        {
+            "color": "#d75000",
+            "groups": [],
+            "id": 8,
+            "is_system_tag": true,
+            "name": "Hẹn gọi"
+        },
+        {
+            "color": "#008000",
+            "groups": [
+                {
+                    "id": -1,
+                    "name": "Nhóm vận chuyển"
+                }
+            ],
+            "id": 13,
+            "is_system_tag": true,
+            "name": "Trễ lấy hàng"
+        },
+        {
+            "color": "#008000",
+            "groups": [
+                {
+                    "id": -1,
+                    "name": "Nhóm vận chuyển"
+                }
+            ],
+            "id": 14,
+            "is_system_tag": true,
+            "name": "Không lấy được hàng"
+        },
+        {
+            "color": "#DD554F",
+            "groups": [
+                {
+                    "id": -1,
+                    "name": "Nhóm vận chuyển"
+                }
+            ],
+            "id": 15,
+            "is_system_tag": true,
+            "name": "Trễ giao hàng"
+        },
+        {
+            "color": "#d75000",
+            "groups": [],
+            "id": 16,
+            "is_system_tag": true,
+            "name": "Quá ngày giao hàng"
+        },
+        {
+            "color": "#afd788",
+            "groups": [
+                {
+                    "id": -1,
+                    "name": "Nhóm vận chuyển"
+                }
+            ],
+            "id": 17,
+            "is_system_tag": true,
+            "name": "Đã lấy hàng"
+        },
+        {
+            "color": "#76d0a3",
+            "groups": [],
+            "id": 18,
+            "is_system_tag": true,
+            "name": "Chờ chuyển kho"
+        },
+        {
+            "color": "red",
+            "groups": [
+                {
+                    "id": -1,
+                    "name": "Nhóm vận chuyển"
+                }
+            ],
+            "id": 19,
+            "is_system_tag": true,
+            "name": "Chờ chuyển hoàn"
+        },
+        {
+            "color": "#f09c42",
+            "groups": [
+                {
+                    "id": -1,
+                    "name": "Nhóm vận chuyển"
+                }
+            ],
+            "id": 20,
+            "is_system_tag": true,
+            "name": "Đang giao hàng"
+        },
+        {
+            "color": "red",
+            "groups": [],
+            "id": 21,
+            "is_system_tag": true,
+            "name": "Chưa hỗ trợ VC"
+        },
+        {
+            "color": "red",
+            "groups": [
+                {
+                    "id": -1,
+                    "name": "Nhóm vận chuyển"
+                }
+            ],
+            "id": 22,
+            "is_system_tag": true,
+            "name": "Thông báo cho người nhận"
+        },
+        {
+            "color": "red",
+            "groups": [
+                {
+                    "id": -1,
+                    "name": "Nhóm vận chuyển"
+                }
+            ],
+            "id": 23,
+            "is_system_tag": true,
+            "name": "Liên hệ ĐVVC"
+        },
+        {
+            "color": "red",
+            "groups": [],
+            "id": 24,
+            "is_system_tag": true,
+            "name": "Đơn gộp"
+        },
+        {
+            "color": "red",
+            "groups": [
+                {
+                    "id": -1,
+                    "name": "Nhóm vận chuyển"
+                }
+            ],
+            "id": 25,
+            "is_system_tag": true,
+            "name": "Hoàn một phần"
+        },
+        {
+            "color": "#096dd9",
+            "groups": [
+                {
+                    "id": -2,
+                    "name": "Nhóm đối soát"
+                }
+            ],
+            "id": 26,
+            "is_system_tag": true,
+            "name": "Đối soát COD"
+        },
+        {
+            "color": "#096dd9",
+            "groups": [
+                {
+                    "id": -2,
+                    "name": "Nhóm đối soát"
+                }
+            ],
+            "id": 27,
+            "is_system_tag": true,
+            "name": "Đối soát phí"
+        },
+        {
+            "color": "#76d0a3",
+            "groups": [],
+            "id": 28,
+            "is_system_tag": true,
+            "name": "Không nghe máy"
+        },
+        {
+            "color": "#00a854",
+            "groups": [],
+            "id": 29,
+            "is_system_tag": true,
+            "name": "Không liên lạc được"
+        },
+        {
+            "color": "#ff7626",
+            "groups": [],
+            "id": 5000,
+            "is_system_tag": true,
+            "name": "Ipay88"
+        },
+        {
+            "color": "#d75000",
+            "groups": [
+                {
+                    "id": -1,
+                    "name": "Nhóm vận chuyển"
+                }
+            ],
+            "id": 5001,
+            "is_system_tag": true,
+            "name": "Trễ gửi đơn"
+        },
+        {
+            "color": "#ff8da1",
+            "groups": [],
+            "id": 5002,
+            "is_system_tag": true,
+            "name": "MoMo"
+        },
+        {
+            "color": "#4666d0",
+            "groups": [],
+            "id": 5003,
+            "is_system_tag": true,
+            "name": "VNPAY"
+        },
+        {
+            "color": "#fb9800",
+            "groups": [],
+            "id": 5004,
+            "is_system_tag": true,
+            "name": "ShopeePay"
+        },
+        {
+            "color": "#13598d",
+            "groups": [],
+            "id": 5005,
+            "is_system_tag": true,
+            "name": "Moca"
+        },
+        {
+            "color": "#03658c",
+            "groups": [],
+            "id": 5006,
+            "is_system_tag": true,
+            "name": "Payoo"
+        },
+        {
+            "color": "#597ef7",
+            "groups": [],
+            "id": 5007,
+            "is_system_tag": true,
+            "name": "Nhắc nhở"
+        },
+        {
+            "color": "#76d0a3",
+            "groups": [],
+            "id": 5008,
+            "is_system_tag": true,
+            "name": "Không phục vụ khu vực"
+        },
+        {
+            "color": "#f5222d",
+            "groups": [],
+            "id": 5009,
+            "is_system_tag": true,
+            "name": "Đối tác không hủy được"
+        },
+        {
+            "color": "#f249ea",
+            "groups": [
+                {
+                    "id": -1,
+                    "name": "Nhóm vận chuyển"
+                }
+            ],
+            "id": 5010,
+            "is_system_tag": true,
+            "name": "Trễ hoàn hàng"
+        },
+        {
+            "color": "#6d32a8",
+            "groups": [],
+            "id": 5011,
+            "is_system_tag": true,
+            "name": "Không hỗ trợ COD"
+        },
+        {
+            "color": "#6d32a8",
+            "groups": [],
+            "id": 5012,
+            "is_system_tag": true,
+            "name": "ODZ"
+        },
+        {
+            "color": "#e3a054",
+            "groups": [
+                {
+                    "id": -3,
+                    "name": "Nhóm sàn TMĐT"
+                }
+            ],
+            "id": 5013,
+            "is_system_tag": true,
+            "name": "Quá hạn chuẩn bị hàng"
+        },
+        {
+            "color": "#ea3322",
+            "groups": [
+                {
+                    "id": -3,
+                    "name": "Nhóm sàn TMĐT"
+                }
+            ],
+            "id": 5014,
+            "is_system_tag": true,
+            "name": "Quá thời hạn bàn giao"
+        },
+        {
+            "color": "#ea227c",
+            "groups": [],
+            "id": 5015,
+            "is_system_tag": true,
+            "name": "Chênh cước vận chuyển"
+        },
+        {
+            "color": "#ea227c",
+            "groups": [
+                {
+                    "id": -1,
+                    "name": "Nhóm vận chuyển"
+                }
+            ],
+            "id": 5016,
+            "is_system_tag": true,
+            "name": "pick up at office"
+        }
+    ],
+    "success": true
+}

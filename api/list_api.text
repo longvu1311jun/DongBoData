@@ -1,0 +1,9 @@
+api get warehouses : https://pos.pages.fm/api/v1/shops/1546758/warehouses?api_key=2a6ed8b51a8d4ae49a851d5876b00018&page_size=500
+api get list_products: https://pos.pages.fm/api/v1/shops/1546758/products/variations?api_key=2a6ed8b51a8d4ae49a851d5876b00018&page_size=500
+apt get categories: https://pos.pages.fm/api/v1/shops/1546758/categories?api_key=2a6ed8b51a8d4ae49a851d5876b00018&page_size=500
+api get tags: https://pos.pages.fm/api/v1/shops/1546758/orders/tags?api_key=2a6ed8b51a8d4ae49a851d5876b00018&page_size=500
+api get order_source: https://pos.pages.fm/api/v1/shops/1546758/order_source?api_key=2a6ed8b51a8d4ae49a851d5876b00018&page_size=500
+api get info a order: https://pos.pages.fm/api/v1/shops/1546758/orders/<order_id>?api_key=2a6ed8b51a8d4ae49a851d5876b00018&page_size=500
+api get list order: https://pos.pages.fm/api/v1/shops/1546758/orders?api_key=2a6ed8b51a8d4ae49a851d5876b00018&page_size=100&page_number=2&updateStatus=inserted_at&startDateTime=1772298000&endDateTime=1774025999
+api get users: https://pos.pages.fm/api/v1/shops/1546758/users?api_key=2a6ed8b51a8d4ae49a851d5876b00018&page_size=500
+api get : https://pos.pages.fm/api/v1/shops/1546758/customers?api_key=2a6ed8b51a8d4ae49a851d5876b00018&page_size=500

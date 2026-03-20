@@ -1,0 +1,1261 @@
+{
+    "data": {
+        "charged_by_qrpay": 0,
+        "total_discount": 482010,
+        "activated_combo_products": [],
+        "time_assign_care": null,
+        "received_at_shop": false,
+        "total_price_after_sub_discount": 4643999,
+        "levera_point": 0,
+        "account": "pzl_842245326636187308",
+        "time_send_partner": "2026-01-02T01:50:23",
+        "note_image": [
+            "https://content.pancake.vn/2-2601/2026/1/2/a3783b26d5a57f5479edc3d04a6fb1750d2a7d7f.png"
+        ],
+        "is_smc": false,
+        "status": 3,
+        "assigning_seller_id": "dc72ba92-6a46-46c1-bc4f-8f6b65cdd99e",
+        "total_price": 4820104,
+        "advanced_platform_fee": {},
+        "cash": 0,
+        "fee_marketplace": 0,
+        "tracking_link": "https://order.pke.gg/tracking?id=gJ9Yp%2Fbt75Iorp4eSmT8HL238I8ZfzoI%2B1QBTxjlXQdLL%2F2cKxv1fY663U9miPxfbCWicuFJy%2Fd3aDtIisynlKmR0bBD%2FlU%3D",
+        "payment_purchase_histories": [],
+        "customer_referral_code": null,
+        "order_sources": "-8",
+        "sub_status": null,
+        "assigning_seller": {
+            "avatar_url": null,
+            "email": "bomshop2410197@gmail.com",
+            "fb_id": "107495999902975",
+            "id": "dc72ba92-6a46-46c1-bc4f-8f6b65cdd99e",
+            "name": "Vũ Thị Thanh 0362270564",
+            "phone_number": null
+        },
+        "additional_info": {
+            "booking_sn": null,
+            "delivery_deadline": null,
+            "service_partner": null
+        },
+        "prepaid": 0,
+        "creator": {
+            "avatar_url": null,
+            "email": "bomshop2410197@gmail.com",
+            "fb_id": "107495999902975",
+            "id": "dc72ba92-6a46-46c1-bc4f-8f6b65cdd99e",
+            "name": "Vũ Thị Thanh 0362270564",
+            "phone_number": null
+        },
+        "assigning_care": null,
+        "transfer_money": 0,
+        "duplicated_ip": false,
+        "pke_mkter": null,
+        "p_utm_medium": null,
+        "p_utm_term": null,
+        "is_livestream": false,
+        "partner_account": {
+            "name": null,
+            "user_name": "0962840493"
+        },
+        "id": 383598,
+        "conversation_id": "pzl_u_842245326636187308_1350744801697524130",
+        "returned_reason_name": null,
+        "ads_source": null,
+        "bill_phone_number": "0857883283",
+        "marketer": null,
+        "items": [
+            {
+                "added_to_cart_quantity": 4,
+                "assigning_seller": {
+                    "avatar_url": null,
+                    "email": "bomshop2410197@gmail.com",
+                    "fb_id": "107495999902975",
+                    "id": "dc72ba92-6a46-46c1-bc4f-8f6b65cdd99e",
+                    "name": "Vũ Thị Thanh 0362270564",
+                    "phone_number": null
+                },
+                "assigning_seller_id": "dc72ba92-6a46-46c1-bc4f-8f6b65cdd99e",
+                "components": null,
+                "composite_item_id": null,
+                "discount_each_product": 0,
+                "exchange_count": 0,
+                "id": 12752090726,
+                "is_bonus_product": false,
+                "is_composite": false,
+                "is_discount_percent": false,
+                "is_wholesale": false,
+                "measure_group_id": 1228000468,
+                "note": null,
+                "note_product": "",
+                "one_time_product": false,
+                "product_id": "9227e1a3-c56e-4c92-bfe0-8080ffdc6172",
+                "quantity": 4,
+                "return_quantity": 0,
+                "returned_count": 0,
+                "returning_quantity": 0,
+                "same_price_discount": 0,
+                "total_discount": 0,
+                "variation_id": "c9b5e2f9-1765-413d-8b65-71fd9544c910",
+                "variation_info": {
+                    "avg_price": 0.0,
+                    "barcode": "88-1",
+                    "brand_id": null,
+                    "category_ids": [
+                        614049850
+                    ],
+                    "detail": null,
+                    "display_id": "35ERE",
+                    "exact_price": 0,
+                    "fields": [],
+                    "images": [],
+                    "is_upsale_product": null,
+                    "last_imported_price": 0,
+                    "measure_info": {
+                        "exchange_value": 1,
+                        "measure_id": 1228000469
+                    },
+                    "name": "ERECAMAN",
+                    "product_display_id": "35ERE",
+                    "retail_price": 601852,
+                    "retail_price_original": null,
+                    "tax_rate": 0.08,
+                    "weight": 200
+                }
+            },
+            {
+                "added_to_cart_quantity": 2,
+                "assigning_seller": {
+                    "avatar_url": null,
+                    "email": "bomshop2410197@gmail.com",
+                    "fb_id": "107495999902975",
+                    "id": "dc72ba92-6a46-46c1-bc4f-8f6b65cdd99e",
+                    "name": "Vũ Thị Thanh 0362270564",
+                    "phone_number": null
+                },
+                "assigning_seller_id": "dc72ba92-6a46-46c1-bc4f-8f6b65cdd99e",
+                "components": null,
+                "composite_item_id": null,
+                "discount_each_product": 0,
+                "exchange_count": 0,
+                "id": 12752090727,
+                "is_bonus_product": false,
+                "is_composite": false,
+                "is_discount_percent": false,
+                "is_wholesale": false,
+                "measure_group_id": 1228000468,
+                "note": null,
+                "note_product": "",
+                "one_time_product": false,
+                "product_id": "93ae6bbf-9599-4e30-ac32-d64937f91457",
+                "quantity": 2,
+                "return_quantity": 0,
+                "returned_count": 0,
+                "returning_quantity": 0,
+                "same_price_discount": 0,
+                "total_discount": 0,
+                "variation_id": "055df3b9-a5fe-4b69-af1a-ab250add3d62",
+                "variation_info": {
+                    "avg_price": 0.0,
+                    "barcode": "84-1",
+                    "brand_id": null,
+                    "category_ids": [
+                        614049850
+                    ],
+                    "detail": null,
+                    "display_id": "ZINC",
+                    "exact_price": 0,
+                    "fields": [],
+                    "images": [],
+                    "is_upsale_product": null,
+                    "last_imported_price": 0,
+                    "measure_info": {
+                        "exchange_value": 1,
+                        "measure_id": 1228000469
+                    },
+                    "name": "BETA ZINC MAX",
+                    "product_display_id": "ZINC",
+                    "retail_price": 444444,
+                    "retail_price_original": null,
+                    "tax_rate": 0.08,
+                    "weight": 100
+                }
+            },
+            {
+                "added_to_cart_quantity": 8,
+                "assigning_seller": {
+                    "avatar_url": null,
+                    "email": "bomshop2410197@gmail.com",
+                    "fb_id": "107495999902975",
+                    "id": "dc72ba92-6a46-46c1-bc4f-8f6b65cdd99e",
+                    "name": "Vũ Thị Thanh 0362270564",
+                    "phone_number": null
+                },
+                "assigning_seller_id": "dc72ba92-6a46-46c1-bc4f-8f6b65cdd99e",
+                "components": null,
+                "composite_item_id": null,
+                "discount_each_product": 0,
+                "exchange_count": 0,
+                "id": 12752090725,
+                "is_bonus_product": false,
+                "is_composite": false,
+                "is_discount_percent": false,
+                "is_wholesale": false,
+                "measure_group_id": 1228000468,
+                "note": null,
+                "note_product": "",
+                "one_time_product": false,
+                "product_id": "23e90772-1365-4f79-8c81-4e71c9c6b84f",
+                "quantity": 8,
+                "return_quantity": 0,
+                "returned_count": 0,
+                "returning_quantity": 0,
+                "same_price_discount": 0,
+                "total_discount": 0,
+                "variation_id": "fdaf5a90-2993-4d61-a86d-640a82f02669",
+                "variation_info": {
+                    "avg_price": 0.0,
+                    "barcode": "86-1",
+                    "brand_id": null,
+                    "category_ids": [
+                        1842049931
+                    ],
+                    "detail": null,
+                    "display_id": "35EDS",
+                    "exact_price": 0,
+                    "fields": [],
+                    "images": [],
+                    "is_upsale_product": null,
+                    "last_imported_price": 0,
+                    "measure_info": {
+                        "exchange_value": 1,
+                        "measure_id": 1228000469
+                    },
+                    "name": "Edsave 20 (Hộp 1 vỉ x 4 viên)",
+                    "product_display_id": "35EDS",
+                    "retail_price": 190476,
+                    "retail_price_original": null,
+                    "tax_rate": 0.05,
+                    "weight": 80
+                }
+            }
+        ],
+        "shop_id": 1546758,
+        "items_length": 3,
+        "link": null,
+        "shipping_address": {
+            "address": "Số 74, Khu 10, Ấp 4",
+            "commnue_name": "Xã Phước Vân",
+            "commune_code_sicepat": null,
+            "commune_id": "8012509",
+            "commune_name": "Xã Phước Vân",
+            "country_code": "84",
+            "district_id": "80125",
+            "district_name": "Huyện Cần Đước",
+            "full_address": "Số 74, Khu 10, Ấp 4, Xã Phước Vân, Huyện Cần Đước, Long An",
+            "full_name": "Trương Tấn Mẫu",
+            "marketplace_address": null,
+            "new_commune_id": "84_VN12739",
+            "new_full_address": "Số 74, Khu 10, Ấp 4, Xã Long Cang, Tây Ninh",
+            "new_province_id": "84_VN127",
+            "phone_number": "0857883283",
+            "post_code": null,
+            "province_id": "801",
+            "province_name": "Long An",
+            "render_type": "old"
+        },
+        "total_quantity": 14,
+        "account_name": "Trợ Lí Thanh Pk Bác Sĩ Đức Mạnh",
+        "status_history": [
+            {
+                "avatar_url": null,
+                "editor": {
+                    "avatar_url": null,
+                    "email": "bomshop2410197@gmail.com",
+                    "fb_id": "107495999902975",
+                    "id": "dc72ba92-6a46-46c1-bc4f-8f6b65cdd99e",
+                    "name": "Vũ Thị Thanh 0362270564",
+                    "phone_number": null
+                },
+                "editor_fb": "107495999902975",
+                "editor_id": "dc72ba92-6a46-46c1-bc4f-8f6b65cdd99e",
+                "name": "Vũ Thị Thanh 0362270564",
+                "old_status": null,
+                "status": 0,
+                "updated_at": "2025-12-31T15:42:04"
+            },
+            {
+                "avatar_url": null,
+                "editor": {
+                    "avatar_url": null,
+                    "email": "bomshop2410197@gmail.com",
+                    "fb_id": "107495999902975",
+                    "id": "dc72ba92-6a46-46c1-bc4f-8f6b65cdd99e",
+                    "name": "Vũ Thị Thanh 0362270564",
+                    "phone_number": null
+                },
+                "editor_fb": "107495999902975",
+                "editor_id": "dc72ba92-6a46-46c1-bc4f-8f6b65cdd99e",
+                "name": "Vũ Thị Thanh 0362270564",
+                "old_status": 0,
+                "status": 11,
+                "updated_at": "2026-01-02T01:00:15"
+            },
+            {
+                "avatar_url": null,
+                "editor": {
+                    "avatar_url": null,
+                    "email": "yen008152@gmail.com",
+                    "fb_id": null,
+                    "id": "36370a82-6e08-43e6-8d25-c3c9e08be552",
+                    "name": "Yến Vận Đơn",
+                    "phone_number": null
+                },
+                "editor_fb": null,
+                "editor_id": "36370a82-6e08-43e6-8d25-c3c9e08be552",
+                "name": "Yến Vận Đơn",
+                "old_status": 11,
+                "status": 1,
+                "updated_at": "2026-01-02T01:09:32"
+            },
+            {
+                "avatar_url": "https://content.pancake.vn/2-25/2025/8/31/caecabbfa2365a994e1d88fbc83e2b649a996852.jpg",
+                "editor": {
+                    "avatar_url": "https://content.pancake.vn/2-25/2025/8/31/caecabbfa2365a994e1d88fbc83e2b649a996852.jpg",
+                    "email": "cskhmeragroup@gmail.com",
+                    "fb_id": null,
+                    "id": "240e55aa-96b0-4d38-a923-2fc28ab4f882",
+                    "name": "Kho Mera",
+                    "phone_number": null
+                },
+                "editor_fb": null,
+                "editor_id": "240e55aa-96b0-4d38-a923-2fc28ab4f882",
+                "name": "Kho Mera",
+                "old_status": 1,
+                "status": 8,
+                "updated_at": "2026-01-02T01:50:23"
+            },
+            {
+                "avatar_url": "https://content.pancake.vn/2-25/2025/8/31/caecabbfa2365a994e1d88fbc83e2b649a996852.jpg",
+                "editor": {
+                    "avatar_url": "https://content.pancake.vn/2-25/2025/8/31/caecabbfa2365a994e1d88fbc83e2b649a996852.jpg",
+                    "email": "cskhmeragroup@gmail.com",
+                    "fb_id": null,
+                    "id": "240e55aa-96b0-4d38-a923-2fc28ab4f882",
+                    "name": "Kho Mera",
+                    "phone_number": null
+                },
+                "editor_fb": null,
+                "editor_id": "240e55aa-96b0-4d38-a923-2fc28ab4f882",
+                "name": "Kho Mera",
+                "old_status": 8,
+                "status": 9,
+                "updated_at": "2026-01-02T02:43:19"
+            },
+            {
+                "avatar_url": null,
+                "editor": null,
+                "editor_fb": null,
+                "editor_id": null,
+                "name": null,
+                "old_status": 9,
+                "status": 2,
+                "updated_at": "2026-01-02T05:06:35"
+            },
+            {
+                "avatar_url": null,
+                "editor": null,
+                "editor_fb": null,
+                "editor_id": null,
+                "name": null,
+                "old_status": 2,
+                "status": 3,
+                "updated_at": "2026-01-05T03:36:40"
+            }
+        ],
+        "shipping_fee": 0,
+        "histories": [
+            {
+                "amount_owed_to_customer": {
+                    "new": 0,
+                    "old": null
+                },
+                "bank_payments": {
+                    "new": {},
+                    "old": null
+                },
+                "discount": {
+                    "new": 482010,
+                    "old": 0
+                },
+                "editor_id": "dc72ba92-6a46-46c1-bc4f-8f6b65cdd99e",
+                "is_calculation_tax": {
+                    "new": true,
+                    "old": false
+                },
+                "note_image": {
+                    "new": [
+                        "https://content.pancake.vn/2-2601/2026/1/2/a3783b26d5a57f5479edc3d04a6fb1750d2a7d7f.png"
+                    ],
+                    "old": []
+                },
+                "shipping_address": {
+                    "new": {
+                        "address": "Số 74, Khu 10, Ấp 4",
+                        "commnue_name": "Xã Phước Vân",
+                        "commune_id": "8012509",
+                        "country_code": "84",
+                        "district_id": "80125",
+                        "district_name": "Huyện Cần Đước",
+                        "full_address": "Số 74, Khu 10, Ấp 4, Xã Phước Vân, Huyện Cần Đước, Long An",
+                        "full_name": "Trương Tấn Mẫu",
+                        "new_commune_id": "84_VN12739",
+                        "new_full_address": "Số 74, Khu 10, Ấp 4, Xã Long Cang, Tây Ninh",
+                        "new_province_id": "84_VN127",
+                        "phone_number": "0857883283",
+                        "post_code": null,
+                        "province_id": "801",
+                        "province_name": "Long An",
+                        "render_type": "old"
+                    },
+                    "old": {
+                        "address": "Số 74, Khu 10, Ấp 4",
+                        "commnue_name": "Xã Phước Vân",
+                        "commune_id": "8012509",
+                        "country_code": "84",
+                        "district_id": "80125",
+                        "district_name": "Huyện Cần Đước",
+                        "full_address": "Số 74, Khu 10, Ấp 4, Xã Phước Vân, Huyện Cần Đước, Long An",
+                        "full_name": "Trương Tấn Mẫu",
+                        "new_commune_id": "84_VN12739",
+                        "new_full_address": "Số 74, Khu 10, Ấp 4, Xã Long Cang, Tây Ninh",
+                        "new_province_id": "84_VN127",
+                        "phone_number": "0857883283",
+                        "post_code": null,
+                        "province_id": "801",
+                        "province_name": "Long An",
+                        "render_type": null
+                    }
+                },
+                "surcharges": {
+                    "new": {},
+                    "old": null
+                },
+                "tags": {
+                    "new": [],
+                    "old": []
+                },
+                "updated_at": "2026-01-02T01:00:11"
+            },
+            {
+                "editor_id": "dc72ba92-6a46-46c1-bc4f-8f6b65cdd99e",
+                "general_discount": {
+                    "new": 482010,
+                    "old": 0
+                },
+                "tax": {
+                    "new": 305905,
+                    "old": 0
+                },
+                "total_discount": {
+                    "new": 482010,
+                    "old": 0
+                },
+                "updated_at": "2026-01-02T01:00:11"
+            },
+            {
+                "editor_id": "dc72ba92-6a46-46c1-bc4f-8f6b65cdd99e",
+                "status": {
+                    "new": 11,
+                    "old": 0
+                },
+                "updated_at": "2026-01-02T01:00:15"
+            },
+            {
+                "editor_id": "36370a82-6e08-43e6-8d25-c3c9e08be552",
+                "status": {
+                    "new": 1,
+                    "old": 11
+                },
+                "updated_at": "2026-01-02T01:09:32"
+            },
+            {
+                "editor_id": "240e55aa-96b0-4d38-a923-2fc28ab4f882",
+                "shop_partner_id": {
+                    "new": 575135,
+                    "old": null
+                },
+                "updated_at": "2026-01-02T01:50:22"
+            },
+            {
+                "customer_pay_fee": {
+                    "new": false,
+                    "old": null
+                },
+                "editor_id": "240e55aa-96b0-4d38-a923-2fc28ab4f882",
+                "extend_code": {
+                    "new": "PKE1311352763",
+                    "old": null
+                },
+                "partner_count": {
+                    "new": [
+                        {
+                            "id": 3,
+                            "value": 1
+                        }
+                    ],
+                    "old": null
+                },
+                "partner_fee": {
+                    "new": 19000,
+                    "old": 0
+                },
+                "partner_id": {
+                    "new": 3,
+                    "old": null
+                },
+                "status": {
+                    "new": 8,
+                    "old": 1
+                },
+                "time_send_partner": {
+                    "new": "2026-01-02T01:50:23",
+                    "old": null
+                },
+                "updated_at": "2026-01-02T01:50:23",
+                "user_send_partner": {
+                    "new": "240e55aa-96b0-4d38-a923-2fc28ab4f882",
+                    "old": null
+                }
+            },
+            {
+                "editor_id": "240e55aa-96b0-4d38-a923-2fc28ab4f882",
+                "is_lock_order_by_system": {
+                    "new": true,
+                    "old": false
+                },
+                "is_locked": {
+                    "new": true,
+                    "old": false
+                },
+                "updated_at": "2026-01-02T01:50:23"
+            },
+            {
+                "editor_id": null,
+                "partner_status": {
+                    "new": "request_received",
+                    "old": null
+                },
+                "updated_at": "2026-01-02T01:50:57"
+            },
+            {
+                "editor_id": "240e55aa-96b0-4d38-a923-2fc28ab4f882",
+                "printed_form": "Viền ",
+                "updated_at": "2026-01-02T02:41:24"
+            },
+            {
+                "editor_id": "240e55aa-96b0-4d38-a923-2fc28ab4f882",
+                "printed_form": "Viền ",
+                "updated_at": "2026-01-02T02:42:55"
+            },
+            {
+                "editor_id": "240e55aa-96b0-4d38-a923-2fc28ab4f882",
+                "status": {
+                    "new": 9,
+                    "old": 8
+                },
+                "updated_at": "2026-01-02T02:43:20"
+            },
+            {
+                "editor_id": null,
+                "partner_status": {
+                    "new": "on_the_way",
+                    "old": "request_received"
+                },
+                "status": {
+                    "new": 2,
+                    "old": 9
+                },
+                "tags": {
+                    "new": [
+                        {
+                            "id": 17,
+                            "name": "Đã lấy hàng"
+                        }
+                    ],
+                    "old": []
+                },
+                "updated_at": "2026-01-02T05:06:35"
+            },
+            {
+                "editor_id": null,
+                "partner_status": {
+                    "new": "out_for_delivery",
+                    "old": "on_the_way"
+                },
+                "tags": {
+                    "new": [
+                        {
+                            "id": 20,
+                            "name": "Đang giao hàng"
+                        }
+                    ],
+                    "old": [
+                        {
+                            "id": 17,
+                            "name": "Đã lấy hàng"
+                        }
+                    ]
+                },
+                "updated_at": "2026-01-05T01:07:40"
+            },
+            {
+                "editor_id": "fabddfa1-97a5-4652-a168-4df7877b2f79",
+                "note": {
+                    "new": "5/1 đg...",
+                    "old": null
+                },
+                "updated_at": "2026-01-05T01:10:52"
+            },
+            {
+                "editor_id": null,
+                "partner_status": {
+                    "new": "delivered",
+                    "old": "out_for_delivery"
+                },
+                "status": {
+                    "new": 3,
+                    "old": 2
+                },
+                "tags": {
+                    "new": [
+                        {
+                            "id": 4,
+                            "name": "Chưa đối soát"
+                        }
+                    ],
+                    "old": [
+                        {
+                            "id": 20,
+                            "name": "Đang giao hàng"
+                        }
+                    ]
+                },
+                "updated_at": "2026-01-05T03:36:40"
+            },
+            {
+                "editor_id": "84ad4925-d8bf-4c46-a527-8bb95e527026",
+                "tags": {
+                    "new": [
+                        {
+                            "id": 4,
+                            "name": "Chưa đối soát"
+                        },
+                        {
+                            "id": 32,
+                            "name": "Đồng bộ DATA"
+                        }
+                    ],
+                    "old": [
+                        {
+                            "id": 4,
+                            "name": "Chưa đối soát"
+                        }
+                    ]
+                },
+                "updated_at": "2026-01-15T16:59:02"
+            },
+            {
+                "editor_id": "84ad4925-d8bf-4c46-a527-8bb95e527026",
+                "tags": {
+                    "new": [
+                        {
+                            "id": 4,
+                            "name": "Chưa đối soát"
+                        }
+                    ],
+                    "old": [
+                        {
+                            "id": 4,
+                            "name": "Chưa đối soát"
+                        },
+                        {
+                            "id": 32,
+                            "name": "Đồng bộ DATA"
+                        }
+                    ]
+                },
+                "updated_at": "2026-01-30T03:35:56"
+            }
+        ],
+        "page_id": "pzl_842245326636187308",
+        "inserted_at": "2025-12-31T15:42:05.117435",
+        "charged_by_card": 0,
+        "customer_needs": [],
+        "page": {
+            "id": "pzl_842245326636187308",
+            "name": "Trợ Lí Thanh Pk Bác Sĩ Đức Mạnh",
+            "username": "pzl_84362270564"
+        },
+        "is_exchange_order": false,
+        "note_print": null,
+        "p_utm_id": null,
+        "exchange_payment": 0,
+        "charged_by_momo": 0,
+        "activated_promotion_advances": [],
+        "partner_fee": 19000,
+        "money_to_collect": 4643999,
+        "marketplace_id": null,
+        "assigning_care_id": null,
+        "p_utm_campaign": null,
+        "estimate_delivery_date": null,
+        "order_sources_name": "Zalo",
+        "is_free_shipping": false,
+        "p_utm_content": null,
+        "is_live_shopping": false,
+        "customer": {
+            "fb_id": "101837114714197_7089618027801023",
+            "succeed_order_count": 4,
+            "used_reward_point": 0,
+            "gender": "unknown",
+            "last_order_at": "2026-01-05T03:36:40",
+            "emails": [],
+            "name": "Trương Tấn Mẫu",
+            "order_sources": [
+                "-1",
+                "-8"
+            ],
+            "company_info": null,
+            "is_adjust_debts": null,
+            "total_amount_referred": null,
+            "id": "19959fdd-6a21-4e4d-89ed-0738408a784e",
+            "active_levera_pay": false,
+            "purchased_amount": 11743998,
+            "shop_id": 1546758,
+            "shop_customer_addresses": [
+                {
+                    "address": "Số 74, Khu 10, Ấp 4",
+                    "commune_id": "8012509",
+                    "country_code": 84,
+                    "district_id": "80125",
+                    "full_address": "Số 74, Khu 10, Ấp 4, Xã Phước Vân, Huyện Cần Đước, Long An",
+                    "full_name": "Trương Tấn Mẫu",
+                    "id": "892f8701-2664-47e0-95c2-8c2569cf9ee0",
+                    "phone_number": "0857883283",
+                    "post_code": null,
+                    "province_id": "801"
+                },
+                {
+                    "address": null,
+                    "commune_id": null,
+                    "country_code": null,
+                    "district_id": null,
+                    "full_address": null,
+                    "full_name": "Mẫu Trương Tấn",
+                    "id": "b4a82ce7-d220-4f71-8687-08578ec8d694",
+                    "phone_number": "0857883283",
+                    "post_code": null,
+                    "province_id": null
+                }
+            ],
+            "date_of_birth": "1964-02-22",
+            "phone_numbers": [
+                "0857883283"
+            ],
+            "returned_order_count": 0,
+            "inserted_at": "2024-02-17T13:28:46",
+            "username": null,
+            "user_block_id": null,
+            "count_referrals": 0,
+            "notes": [
+                {
+                    "created_at": 1767575455971,
+                    "created_by": {
+                        "application": 1,
+                        "fb_id": null,
+                        "fb_name": "Hường Vận Đơn",
+                        "session_id": "d5f5e424-7182-4c2d-a91e-ab762240ec7e",
+                        "token_for_business": null,
+                        "uid": "fabddfa1-97a5-4652-a168-4df7877b2f79"
+                    },
+                    "edit_history": [],
+                    "id": "6dd3e044-ad8a-4cda-985c-e3e7933bbe35",
+                    "images": [],
+                    "links": [],
+                    "message": "5/1 đg",
+                    "order_id": "540444939458060",
+                    "removed_at": null,
+                    "updated_at": null
+                },
+                {
+                    "created_at": 1767316168114,
+                    "created_by": {
+                        "application": 1,
+                        "fb_id": null,
+                        "fb_name": "Yến Vận Đơn",
+                        "session_id": "61500e33-4351-4d82-b7fd-31fef74484b7",
+                        "token_for_business": null,
+                        "uid": "36370a82-6e08-43e6-8d25-c3c9e08be552"
+                    },
+                    "edit_history": [],
+                    "id": "107d16f9-6129-46cd-8f9e-46bd4fd1015a",
+                    "images": [],
+                    "links": [],
+                    "message": "cskh xn",
+                    "order_id": "540444939458060",
+                    "removed_at": null,
+                    "updated_at": null
+                },
+                {
+                    "created_at": 1767315606639,
+                    "created_by": {
+                        "application": 1,
+                        "fb_id": "107495999902975",
+                        "fb_name": "Vũ Thị Thanh 0362270564",
+                        "session_id": "1kSp5HtXroFCKc4GoLfq9+VYzJesv0S+oTE8VP6NrDk",
+                        "token_for_business": "Abz3df5RIJr18I9T",
+                        "uid": "dc72ba92-6a46-46c1-bc4f-8f6b65cdd99e"
+                    },
+                    "edit_history": [],
+                    "id": "4ec9d790-0081-43af-8091-181d6d9a5d0c",
+                    "images": [
+                        {
+                            "image_data": {
+                                "height": 363,
+                                "width": 753
+                            },
+                            "name": "image.png",
+                            "preview_url": "https://content.pancake.vn/2-2601/2026/1/2/a3783b26d5a57f5479edc3d04a6fb1750d2a7d7f.png",
+                            "url": "https://content.pancake.vn/2-2601/2026/1/2/a3783b26d5a57f5479edc3d04a6fb1750d2a7d7f.png"
+                        }
+                    ],
+                    "links": [],
+                    "message": "khách đã xn, 2 liệu trình giảm 10%, cod 4tr644",
+                    "order_id": "540444939458060",
+                    "removed_at": null,
+                    "updated_at": null
+                },
+                {
+                    "created_at": 1760691715640,
+                    "created_by": {
+                        "application": 1,
+                        "fb_id": null,
+                        "fb_name": "Quỳnh vận Đơn",
+                        "session_id": "PyOABcvfagSeAKdTUChbOQ9Ed4/kdBqjueAVlL5+MWE",
+                        "token_for_business": null,
+                        "uid": "314961ea-2541-493c-8efa-10c456024265"
+                    },
+                    "edit_history": [],
+                    "id": "4f95dea9-e655-4a1a-a2ee-4438b22514fa",
+                    "images": [],
+                    "links": [],
+                    "message": "gọi ok",
+                    "order_id": "270226857124117",
+                    "removed_at": null,
+                    "updated_at": null
+                },
+                {
+                    "created_at": 1760690941456,
+                    "created_by": {
+                        "application": 1,
+                        "fb_id": "107495999902975",
+                        "fb_name": "Vũ Thị Thanh 0362270564",
+                        "session_id": "1kSp5HtXroFCKc4GoLfq9+VYzJesv0S+oTE8VP6NrDk",
+                        "token_for_business": "Abz3df5RIJr18I9T",
+                        "uid": "dc72ba92-6a46-46c1-bc4f-8f6b65cdd99e"
+                    },
+                    "edit_history": [],
+                    "id": "bc9e18c5-f7f9-47ee-9d2a-73691e3131cd",
+                    "images": [],
+                    "links": [],
+                    "message": "cod 2tr580",
+                    "order_id": "270226857124117",
+                    "removed_at": null,
+                    "updated_at": null
+                },
+                {
+                    "created_at": 1758359240186,
+                    "created_by": {
+                        "application": 1,
+                        "fb_id": null,
+                        "fb_name": "Hường Vận Đơn",
+                        "session_id": "oZx+fV5iif36p0sss5ysUQrIe3G6rim9mVAi59jIbyM",
+                        "token_for_business": null,
+                        "uid": "fabddfa1-97a5-4652-a168-4df7877b2f79"
+                    },
+                    "edit_history": [],
+                    "id": "14c51385-f1fc-4666-8c7d-32b6094e6ec7",
+                    "images": [],
+                    "links": [],
+                    "message": "20/9 đ bcp dự 21 giao",
+                    "order_id": "90082811815331",
+                    "removed_at": null,
+                    "updated_at": null
+                },
+                {
+                    "created_at": 1758076994594,
+                    "created_by": {
+                        "application": 1,
+                        "fb_id": null,
+                        "fb_name": "Hường Vận Đơn",
+                        "session_id": "oZx+fV5iif36p0sss5ysUQrIe3G6rim9mVAi59jIbyM",
+                        "token_for_business": null,
+                        "uid": "fabddfa1-97a5-4652-a168-4df7877b2f79"
+                    },
+                    "edit_history": [],
+                    "id": "4756af1a-2db7-4c2b-925c-dbc481a0b3a1",
+                    "images": [],
+                    "links": [],
+                    "message": "cskh xn",
+                    "order_id": "90082811815331",
+                    "removed_at": null,
+                    "updated_at": null
+                },
+                {
+                    "created_at": 1758075942833,
+                    "created_by": {
+                        "application": 1,
+                        "fb_id": "107495999902975",
+                        "fb_name": "Vũ Thị Thanh 0362270564",
+                        "session_id": "pRjf3ea25Np/sV4kChl2rm1lzYtnAwj2IROs8XoGCQ0",
+                        "token_for_business": "Abz3df5RIJr18I9T",
+                        "uid": "dc72ba92-6a46-46c1-bc4f-8f6b65cdd99e"
+                    },
+                    "edit_history": [],
+                    "id": "b559b5d6-986f-408d-a843-500fdcf4061a",
+                    "images": [
+                        {
+                            "image_data": null,
+                            "name": "image.png",
+                            "preview_url": "https://content.pancake.vn/2-25/2025/9/17/57adae778412bf79582beebc2505be91473cba5b.png",
+                            "url": "https://content.pancake.vn/2-25/2025/9/17/57adae778412bf79582beebc2505be91473cba5b.png"
+                        }
+                    ],
+                    "links": [],
+                    "message": "khách đã xn, cod 2tr340",
+                    "order_id": "90082811815331",
+                    "removed_at": null,
+                    "updated_at": null
+                },
+                {
+                    "created_at": 1756108409418,
+                    "created_by": {
+                        "application": 1,
+                        "fb_id": null,
+                        "fb_name": "Giang vận đơn",
+                        "session_id": "4TOCrsZ51s9pUIQFTww215x7TUmlgpAzlP3oW/n7fSk",
+                        "token_for_business": null,
+                        "uid": "9304782b-a7df-42dc-aeb2-48f44166ee1e"
+                    },
+                    "edit_history": [],
+                    "id": "20d50212-3cfb-4f8f-849b-56c39693e35c",
+                    "images": [],
+                    "links": [],
+                    "message": "đg",
+                    "order_id": "270226834335732",
+                    "removed_at": null,
+                    "updated_at": null
+                },
+                {
+                    "created_at": 1755738121676,
+                    "created_by": {
+                        "application": 1,
+                        "fb_id": "136794294363463",
+                        "fb_name": "Lê Quang Linh Sale-Tele",
+                        "session_id": "rt4YIYfOEaN0x1tswlOWWaNHK4yXPBt4akwbqzk+IgU",
+                        "token_for_business": "AbyY_1wuvzqaIOGU",
+                        "uid": "4b0cbe63-eaf4-4d0d-8108-923f61e4c7de"
+                    },
+                    "edit_history": [],
+                    "id": "eea16d03-5449-4c47-84e2-55e6f372c0d0",
+                    "images": [],
+                    "links": [],
+                    "message": "cod 2180",
+                    "order_id": "270226834335732",
+                    "removed_at": null,
+                    "updated_at": null
+                },
+                {
+                    "created_at": 1755699594614,
+                    "created_by": {
+                        "application": 1,
+                        "fb_id": "136794294363463",
+                        "fb_name": "Lê Quang Linh Sale-Tele",
+                        "session_id": "RSJ+maSNcNE3TRZ8D1z18ch7chkn639/7obIthAecnw",
+                        "token_for_business": "AbyY_1wuvzqaIOGU",
+                        "uid": "4b0cbe63-eaf4-4d0d-8108-923f61e4c7de"
+                    },
+                    "edit_history": [],
+                    "id": "9db64a67-6b2a-4954-a7d3-18c494ad1ee1",
+                    "images": [],
+                    "links": [],
+                    "message": "65t, rlcd,5 năm, cương kém, xìu ngang, không thuốc, bị tiểu đường nay trên 10 năm",
+                    "order_id": "270226834185488",
+                    "removed_at": null,
+                    "updated_at": null
+                },
+                {
+                    "created_at": 1755687552186,
+                    "created_by": {
+                        "application": 1,
+                        "fb_id": "113393946609018",
+                        "fb_name": "Nguyễn Hiếu anh sale",
+                        "session_id": "fyborS4dr4OCcQvB/2SU+8hynYdUMg+1jfpzc1LxzFg",
+                        "token_for_business": "Abw9_AR3cQ-HrbIT",
+                        "uid": "8df2c817-b849-4499-85c3-f39de409f3bd"
+                    },
+                    "edit_history": [],
+                    "id": "c218043d-09d0-4677-89fc-1989c72c1161",
+                    "images": [],
+                    "links": [],
+                    "message": "Tt",
+                    "order_id": "",
+                    "removed_at": null,
+                    "updated_at": null
+                },
+                {
+                    "created_at": 1708176747241,
+                    "created_by": {
+                        "application": 1,
+                        "fb_id": "700546750093226",
+                        "fb_name": "Phạm Thị Nga",
+                        "session_id": "+hUwnRTJksq+y7gzpaP7WSWGIsi7mC7YhbwCyyDpNGg",
+                        "uid": "c4576ad7-466a-4cda-9e3f-a4797204d513"
+                    },
+                    "edit_history": [],
+                    "id": "fb2865c0-09f1-4c95-9b2e-02d3caf83f4f",
+                    "images": [],
+                    "links": [],
+                    "message": "Minh 64t rlcd",
+                    "order_id": "1160978754",
+                    "removed_at": null,
+                    "updated_at": null
+                }
+            ],
+            "order_count": 8,
+            "current_debts": 0,
+            "conversation_link": "https://pancake.vn/101837114714197?customer_id=b2ec24c8-5992-4a6f-baed-538861cd9665",
+            "reward_point": 0,
+            "tags": [],
+            "is_discount_by_level": true,
+            "level": null,
+            "customer_id": "b2ec24c8-5992-4a6f-baed-538861cd9665",
+            "list_voucher": [],
+            "assigned_user_id": "c4576ad7-466a-4cda-9e3f-a4797204d513",
+            "conversation_tags": null,
+            "currency": "VND",
+            "is_block": false,
+            "referral_code": "u6NTjZPj",
+            "updated_at": "2026-01-05T03:36:40",
+            "identity_code": null,
+            "creator_id": "c4576ad7-466a-4cda-9e3f-a4797204d513"
+        },
+        "order_currency": "VND",
+        "status_name": "delivered",
+        "tags": [
+            {
+                "id": 4,
+                "name": "Chưa đối soát"
+            }
+        ],
+        "returned_reason": null,
+        "note": "5/1 đg",
+        "return_fee": false,
+        "duplicated_phone": false,
+        "bill_email": null,
+        "order_link": "https://pos.pages.fm/shop/1546758/order?order_id=540444939458060",
+        "bank_payments": {},
+        "warehouse_info": {
+            "address": "232 Sao Biển 1, Vinhomes Ocean Park",
+            "affiliate_id": null,
+            "commune_id": "1011951",
+            "custom_id": null,
+            "district_id": "10119",
+            "ffm_id": null,
+            "full_address": "232 Sao Biển 1, Vinhomes Ocean Park, Xã Đa Tốn, Huyện Gia Lâm, Hà Nội",
+            "has_snappy_service": false,
+            "name": "Pk Bác sĩ Đức Mạnh",
+            "phone_number": "0816674186",
+            "postcode": null,
+            "province_id": "101",
+            "settings": null
+        },
+        "prepaid_by_point": {
+            "money": 0,
+            "point": 0
+        },
+        "cod": 4643999,
+        "warehouse_id": "1aa35d62-42a8-4b77-904c-6b9e291022af",
+        "ad_id": null,
+        "tax": 305905,
+        "bill_full_name": "Trương Tấn Mẫu",
+        "botcake_info": null,
+        "p_utm_source": null,
+        "updated_at": "2026-01-30T03:35:56.215527",
+        "post_id": null,
+        "surcharge": 0,
+        "customer_pay_fee": false,
+        "partner": {
+            "cod": 0,
+            "count_of_delivery": 1,
+            "custom_partner_id": null,
+            "delivery_name": "Nguyễn Huỳnh Long",
+            "delivery_tel": "0378971496",
+            "extend_code": "PKE540444939458060",
+            "extend_update": [
+                {
+                    "key": "3fb94b35-e63e-4a95-b2a3-5b2d7b67bd3f",
+                    "location": "LAN, HBLACD, Bưu cục Cần Đước - LAN - Long An, 0335045111, 852701, THỊ TRẤN CẦN ĐƯỚC",
+                    "note": "Trương Tấn Mẫu - Bưu tá: Nguyễn Huỳnh Long - 0378971496",
+                    "status": "Thành công - Phát thành công",
+                    "tracking_id": "PKE540444939458060",
+                    "updated_at": "2026-01-05T03:36:40.381487",
+                    "webhook_params": null
+                },
+                {
+                    "key": "e801a52e-6895-4f8e-b70e-d0040c620088",
+                    "location": "LAN, HBLACD, Bưu cục Cần Đước - LAN - Long An, 0335045111, 852701, THỊ TRẤN CẦN ĐƯỚC",
+                    "note": "Phân công phát - Bưu tá: Nguyễn Huỳnh Long - 0378971496",
+                    "status": "Giao bưu tá đi phát",
+                    "tracking_id": "PKE540444939458060",
+                    "updated_at": "2026-01-05T01:07:40.197276",
+                    "webhook_params": null
+                },
+                {
+                    "key": "7486fa29-5064-48f6-9bf3-a402a94a9747",
+                    "location": "LAN, HBLACD, Bưu cục Cần Đước - LAN - Long An, 0335045111, 852701, THỊ TRẤN CẦN ĐƯỚC",
+                    "note": "Nhan tai - Bưu tá: Nguyễn Văn  Tội - 0358082522",
+                    "status": "Nhận bảng kê đến",
+                    "tracking_id": "PKE540444939458060",
+                    "updated_at": "2026-01-05T00:35:05.909257",
+                    "webhook_params": null
+                },
+                {
+                    "key": "66581023-9f2e-4147-b352-c68c6a0f15bc",
+                    "location": "HNI, TTKT5, Trung tâm khai thác 5 - Hà Nội, 0988512231, 142016, THỊ TRẤN QUANG MINH",
+                    "note": "Van chuyen di - Bưu tá: Nguyễn Trọng Vũ - 0398327803",
+                    "status": "Đóng bảng kê đi",
+                    "tracking_id": "PKE540444939458060",
+                    "updated_at": "2026-01-02T13:50:37.374827",
+                    "webhook_params": null
+                },
+                {
+                    "key": "2daaf72f-1628-4fe5-a165-70ab6165725c",
+                    "location": "HNI, KKY, Bưu cục Kiêu Kỵ - HNI - Hà Nội, 0334236111, 131018, XÃ KIÊU KỴ",
+                    "note": "Van chuyen di - Bưu tá: Nguyễn Ngọc Sơn - 0867881541",
+                    "status": "Đóng bảng kê đi",
+                    "tracking_id": "PKE540444939458060",
+                    "updated_at": "2026-01-02T06:54:37.272355",
+                    "webhook_params": null
+                },
+                {
+                    "key": "cabbb7a7-6aeb-4dba-9685-f0a32274a3c5",
+                    "location": "HNI, KKY, Bưu cục Kiêu Kỵ - HNI - Hà Nội, 0334236111, 131018, XÃ KIÊU KỴ",
+                    "note": "Nhập doanh thu - Bưu tá: Nguyễn Hồng Đạt - 0986706639",
+                    "status": "Nhận từ bưu tá - Bưu cục gốc",
+                    "tracking_id": "PKE540444939458060",
+                    "updated_at": "2026-01-02T05:06:35.898098",
+                    "webhook_params": null
+                },
+                {
+                    "key": "e1abad7f-7a3f-4b53-8631-28cc9bc9b59b",
+                    "location": "HNI, KKY, Bưu cục Kiêu Kỵ - HNI - Hà Nội, 0334236111, 131018, XÃ KIÊU KỴ",
+                    "note": "Phân công bưu tá nhận hàng - Bưu tá: Nguyễn Hồng Đạt - 0986706639",
+                    "status": "Giao cho Bưu tá đi nhận",
+                    "tracking_id": "PKE540444939458060",
+                    "updated_at": "2026-01-02T03:33:04.177214",
+                    "webhook_params": null
+                },
+                {
+                    "key": "2875975c-d870-4915-b6d0-ddb27fa5668a",
+                    "location": "HNI, KKY, Bưu cục Kiêu Kỵ - HNI - Hà Nội, 0334236111, 131018, XÃ KIÊU KỴ",
+                    "note": "Phân công bưu cục nhận hàng",
+                    "status": "Giao cho bưu cục",
+                    "tracking_id": "PKE540444939458060",
+                    "updated_at": "2026-01-02T01:50:56.905071",
+                    "webhook_params": null
+                }
+            ],
+            "first_delivery_at": "2026-01-05T01:07:40",
+            "is_ghn_v2": null,
+            "is_returned": null,
+            "order_id_ghn": null,
+            "order_number_vtp": "PKE1311352763",
+            "paid_at": null,
+            "partner_id": 3,
+            "partner_name": "VTP",
+            "partner_status": "delivered",
+            "picked_up_at": "2026-01-02T05:06:35",
+            "printed_form": "https://digitalize.viettelpost.vn/DigitalizePrint/report.do?type=1&bill=MStA4LyXY-f0uNIEd4wxI3npm_1lhvvbg6xXTDHO4tM=&showPostage=1",
+            "service_partner": {
+                "CUS_ID": "17311491",
+                "DELIVERY_DATE": "03/01/2026 08:49:00",
+                "GROUPADDRESS_ID": 27032054,
+                "LIST_ITEM": [
+                    {
+                        "PRODUCT_NAME": "ERECAMAN",
+                        "PRODUCT_PRICE": 601852,
+                        "PRODUCT_QUANTITY": 4,
+                        "PRODUCT_WEIGHT": 200
+                    },
+                    {
+                        "PRODUCT_NAME": "BETA ZINC MAX",
+                        "PRODUCT_PRICE": 444444,
+                        "PRODUCT_QUANTITY": 2,
+                        "PRODUCT_WEIGHT": 100
+                    },
+                    {
+                        "PRODUCT_NAME": "Edsave 20 (Hộp 1 vỉ x 4 viên)",
+                        "PRODUCT_PRICE": 190476,
+                        "PRODUCT_QUANTITY": 8,
+                        "PRODUCT_WEIGHT": 80
+                    }
+                ],
+                "MONEY_COLLECTION": 4643999,
+                "ORDER_NOTE": "1 - Cho xem hàng, không cho thử",
+                "ORDER_NUMBER": "PKE540444939458060",
+                "ORDER_PAYMENT": 3,
+                "ORDER_SERVICE": "VSL7",
+                "ORDER_SERVICE_ADD": null,
+                "ORDER_VOUCHER": "",
+                "PRODUCT_HEIGHT": 0,
+                "PRODUCT_LENGTH": 0,
+                "PRODUCT_NAME": "4 x ERECAMAN/ , 2 x BETA ZINC MAX/ , 8 x Edsave 20 (Hộp 1 vỉ x 4 viên)/ ",
+                "PRODUCT_PRICE": 4820104,
+                "PRODUCT_QUANTITY": 14,
+                "PRODUCT_TYPE": "HH",
+                "PRODUCT_WEIGHT": 1640,
+                "PRODUCT_WIDTH": 0,
+                "RECEIVER_ADDRESS": "Số 74, Khu 10, Ấp 4",
+                "RECEIVER_DISTRICT": "607",
+                "RECEIVER_FULLNAME": "Trương Tấn Mẫu",
+                "RECEIVER_PHONE": "0857883283",
+                "RECEIVER_PROVINCE": "54",
+                "RECEIVER_WARD": "10350",
+                "SENDER_ADDRESS": "232 Sao Biển 1, Vinhomes Ocean Park",
+                "SENDER_DISTRICT": "8",
+                "SENDER_FULLNAME": "Pk Bác sĩ Đức Mạnh",
+                "SENDER_PHONE": "0816674186",
+                "SENDER_PROVINCE": "1",
+                "SENDER_WARD": "193",
+                "partner_id": 3
+            },
+            "sort_code": null,
+            "system_created": true,
+            "total_fee": 0,
+            "updated_at": "2026-01-05T03:36:40"
+        },
+        "last_editor": {
+            "avatar_url": null,
+            "email": "icloudcualong@gmail.com",
+            "fb_id": "1778177409137842",
+            "id": "84ad4925-d8bf-4c46-a527-8bb95e527026",
+            "name": "Vũ Thế Long - 0961253819",
+            "phone_number": null
+        },
+        "buyer_total_amount": null,
+        "time_assign_seller": "2025-12-31T15:42:05",
+        "exchange_value": 0,
+        "system_id": 383598
+    },
+    "success": true
+}

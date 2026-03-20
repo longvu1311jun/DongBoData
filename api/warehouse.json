@@ -1,0 +1,62 @@
+{
+    "data": [
+        {
+            "address": "232 Sao Biển 1, Vinhomes Ocean Park",
+            "allow_create_order": true,
+            "batch_config": null,
+            "commune_id": "1011951",
+            "country_code": 84,
+            "custom_batch_config": null,
+            "custom_id": null,
+            "custom_shelf_config": null,
+            "district_id": "10119",
+            "full_address": "232 Sao Biển 1, Vinhomes Ocean Park, Xã Đa Tốn, Huyện Gia Lâm, Hà Nội",
+            "hide_config_batch_shelf": null,
+            "id": "1aa35d62-42a8-4b77-904c-6b9e291022af",
+            "name": "Pk Bác sĩ Đức Mạnh",
+            "phone_number": "0816674186",
+            "postcode": null,
+            "province_id": "101",
+            "shelf_config": null
+        },
+        {
+            "address": null,
+            "allow_create_order": false,
+            "batch_config": null,
+            "commune_id": null,
+            "country_code": null,
+            "custom_batch_config": null,
+            "custom_id": null,
+            "custom_shelf_config": null,
+            "district_id": null,
+            "full_address": "",
+            "hide_config_batch_shelf": null,
+            "id": "c2f45f14-a0c3-4d80-a1a9-61633c12869d",
+            "name": "Kho thuốc gửi KH sang bệnh viện",
+            "phone_number": "0814744708",
+            "postcode": null,
+            "province_id": null,
+            "shelf_config": null
+        },
+        {
+            "address": null,
+            "allow_create_order": true,
+            "batch_config": null,
+            "commune_id": null,
+            "country_code": 84,
+            "custom_batch_config": null,
+            "custom_id": null,
+            "custom_shelf_config": null,
+            "district_id": null,
+            "full_address": "",
+            "hide_config_batch_shelf": null,
+            "id": "41486a74-ed72-4016-a665-13cede976d85",
+            "name": "Kho thuốc PK BẢO NAM",
+            "phone_number": "0977014387",
+            "postcode": null,
+            "province_id": null,
+            "shelf_config": null
+        }
+    ],
+    "success": true
+}

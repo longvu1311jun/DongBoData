@@ -1,0 +1,1357 @@
+{
+    "data": [
+        {
+            "custom_id": "5fe81c98-8916-425c-b897-ebac055a936a",
+            "id": 615008112,
+            "image": null,
+            "inserted_at": "2026-02-15T01:59:16",
+            "is_removed": false,
+            "link_source_id": null,
+            "name": "Lead OCP",
+            "parent_id": -7,
+            "project_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2026-02-15T01:59:16"
+        },
+        {
+            "custom_id": "dd051a35-f1e4-47d4-b7ca-a1646636c17c",
+            "id": 615005259,
+            "image": null,
+            "inserted_at": "2026-01-11T08:16:10",
+            "is_removed": false,
+            "link_source_id": null,
+            "name": "Đạt ADS ",
+            "parent_id": -7,
+            "project_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2026-01-11T08:50:31"
+        },
+        {
+            "custom_id": null,
+            "id": -15,
+            "image": null,
+            "inserted_at": "2026-01-11T08:15:38",
+            "is_removed": true,
+            "link_source_id": null,
+            "name": "Webcake Storefront",
+            "parent_id": null,
+            "project_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2026-01-11T08:15:42"
+        },
+        {
+            "custom_id": null,
+            "id": 1843002049,
+            "image": null,
+            "inserted_at": "2026-01-11T08:15:04",
+            "is_removed": false,
+            "link_source_id": null,
+            "name": "Đạt Ads",
+            "parent_id": -7,
+            "project_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2026-01-11T08:15:04"
+        },
+        {
+            "custom_id": "0d158f49-4a42-433f-a845-e5c7d43c6901",
+            "id": 1842042026,
+            "image": null,
+            "inserted_at": "2025-09-19T03:52:04",
+            "is_removed": false,
+            "link_source_id": null,
+            "name": "Lead ",
+            "parent_id": -7,
+            "project_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2025-09-19T03:52:04"
+        },
+        {
+            "custom_id": "3e0de4ea-e028-48c0-9da4-6fdf9ff18886",
+            "id": 28142,
+            "image": null,
+            "inserted_at": "2025-05-18T09:18:59",
+            "is_removed": false,
+            "link_source_id": null,
+            "name": "Lead ",
+            "parent_id": -7,
+            "project_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2025-05-18T09:26:32"
+        },
+        {
+            "custom_id": null,
+            "id": -7,
+            "image": null,
+            "inserted_at": "2025-05-18T09:18:59",
+            "is_removed": false,
+            "link_source_id": null,
+            "name": "Webcake Landing",
+            "parent_id": null,
+            "project_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2025-05-18T09:18:59"
+        },
+        {
+            "custom_id": null,
+            "id": -1,
+            "image": null,
+            "inserted_at": null,
+            "is_removed": false,
+            "link_source_id": null,
+            "name": "Facebook",
+            "parent_id": null,
+            "project_id": null,
+            "shop_id": "1546758",
+            "updated_at": null
+        },
+        {
+            "id": "1038108526045954",
+            "inserted_at": "2026-03-09T08:33:51",
+            "name": "Bác Sĩ Đức Mạnh - Tư Vấn Nam Khoa",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:40"
+        },
+        {
+            "id": "pzl_690395616027308590",
+            "inserted_at": "2026-02-24T01:45:28",
+            "name": "Trợ Lí Nhung Pk Bác Sĩ Đức Mạnh",
+            "parent_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:15"
+        },
+        {
+            "id": "1063855176807005",
+            "inserted_at": "2026-02-27T04:59:35",
+            "name": "Bác Sĩ Đức Mạnh - Chuyên Gia Sinh Lý Nam",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:40"
+        },
+        {
+            "id": "898798796660791",
+            "inserted_at": "2026-01-23T06:28:23",
+            "name": "Bác Sĩ Đức Mạnh - Tư Vấn Nam Khoa",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:40"
+        },
+        {
+            "id": "919696704567912",
+            "inserted_at": "2026-01-22T02:16:07",
+            "name": "Dr Đức Mạnh - Nam Khoa",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:24:48"
+        },
+        {
+            "id": "1002563369598734",
+            "inserted_at": "2026-01-20T03:13:05",
+            "name": "Dr Đức Mạnh - Đồng Hành Sức Khỏe Nam Giới ",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:40"
+        },
+        {
+            "id": "1020322791164194",
+            "inserted_at": "2026-01-06T07:45:22",
+            "name": "Bác Sĩ Đức Mạnh - Chuyên Khoa Nam Khoa",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:40"
+        },
+        {
+            "id": "1006087729247194",
+            "inserted_at": "2026-01-06T07:47:33",
+            "name": "Bác Sĩ Đức Mạnh - Hỗ Trợ Nam Khoa ",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:40"
+        },
+        {
+            "id": "928525433679860",
+            "inserted_at": "2026-01-06T07:47:33",
+            "name": "BS Đức Mạnh - Đồng Hành Sức Khỏe Nam Giới",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:40"
+        },
+        {
+            "id": "894187263780528",
+            "inserted_at": "2025-12-17T09:17:31",
+            "name": "Phòng Khám Nam Khoa-Bác Sĩ Đức Mạnh ",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:40"
+        },
+        {
+            "id": "pzl_700504327885270062",
+            "inserted_at": "2025-12-03T09:43:18",
+            "name": "Trợ Lí Dung Pk Bác Sĩ Đức Mạnh",
+            "parent_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T01:18:55"
+        },
+        {
+            "id": "pzl_698116403246628526",
+            "inserted_at": "2025-11-15T07:45:59",
+            "name": "Trợ Lí Lý Pk Bác Sĩ Đức Mạnh",
+            "parent_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:24:44"
+        },
+        {
+            "id": "pzl_720486294965199406",
+            "inserted_at": "2025-11-12T15:35:37",
+            "name": "Tro Ly Vân Pk Bác Sĩ Đức Mạnh",
+            "parent_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T01:18:55"
+        },
+        {
+            "id": "884989984704043",
+            "inserted_at": "2025-11-21T09:23:49",
+            "name": "Bác sĩ Đức Mạnh - Phòng Khám Nam khoa Bác sĩ Mạnh",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:24:55"
+        },
+        {
+            "id": "pzl_695596992890966574",
+            "inserted_at": "2025-11-11T03:02:18",
+            "name": "Phòng Khám Bảo Nam Bs Đức Mạnh",
+            "parent_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T01:59:53"
+        },
+        {
+            "id": "pzl_849281090649059756",
+            "inserted_at": "2024-08-17T06:45:01",
+            "name": "Trợ Ly Lan Anh Pk Bác Sĩ Đức Mạnh",
+            "parent_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T01:18:55"
+        },
+        {
+            "id": "pzl_781267229420827053",
+            "inserted_at": "2024-09-10T06:53:08",
+            "name": "Trơ Lý Hà Bác Sĩ Trần Thành",
+            "parent_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2025-11-04T06:44:28"
+        },
+        {
+            "id": "805047552697375",
+            "inserted_at": "2025-10-23T09:13:57",
+            "name": "Chuyên Gia Nam Khoa - Bs Đức Mạnh",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:40"
+        },
+        {
+            "id": "pzl_688043344436302638",
+            "inserted_at": "2025-10-08T06:23:31",
+            "name": "Tro Lý Lan Anh Pk Bác Sĩ Đức Mạnh",
+            "parent_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T01:18:55"
+        },
+        {
+            "id": "pzl_697083167733327662",
+            "inserted_at": "2025-10-03T04:06:08",
+            "name": "Trợ Lí Quỳnh Pk Bác Sĩ Đức Mạnh",
+            "parent_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T01:18:55"
+        },
+        {
+            "id": "774881662380962",
+            "inserted_at": "2025-10-02T09:54:27",
+            "name": "Dr. Đức Mạnh - Hỗ Trợ Nam Khoa ",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:23:47"
+        },
+        {
+            "id": "793951987143625",
+            "inserted_at": "2025-10-02T09:54:27",
+            "name": "Bác sĩ Đức Mạnh - Chuyên Nam Khoa ",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:23:47"
+        },
+        {
+            "id": "pzl_709024097111571886",
+            "inserted_at": "2025-10-01T01:46:34",
+            "name": "Trợ Lí Kiều Pk Bác Sĩ Đức Mạnh",
+            "parent_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T01:18:55"
+        },
+        {
+            "id": "pzl_720512807792263598",
+            "inserted_at": "2025-09-22T09:15:49",
+            "name": "Trơ Lý Hoa Pk Bác Sĩ Đức Mạnh",
+            "parent_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T01:18:55"
+        },
+        {
+            "id": "799004606629806",
+            "inserted_at": "2025-09-15T01:55:30",
+            "name": "BS. Đức Mạnh - Sinh Lý Nam",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:23:47"
+        },
+        {
+            "id": "784217491441154",
+            "inserted_at": "2025-09-15T12:34:04",
+            "name": "Dr. Đức Mạnh",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:40"
+        },
+        {
+            "id": "811859548676010",
+            "inserted_at": "2025-09-15T12:34:04",
+            "name": "DR. Đức Mạnh",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:23:47"
+        },
+        {
+            "id": "pzl_775449679258519981",
+            "inserted_at": "2025-09-07T14:31:34",
+            "name": "Pk Bác Sĩ Đức Mạnh",
+            "parent_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T01:18:55"
+        },
+        {
+            "id": "pzl_689990226828796206",
+            "inserted_at": "2025-08-19T01:51:00",
+            "name": "Trợ Lí My Pk Bác Sĩ Đức Mạnh",
+            "parent_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T01:18:55"
+        },
+        {
+            "id": "789122647611530",
+            "inserted_at": "2025-08-16T04:09:51",
+            "name": "Bs Mạnh - Hỗ Trợ Nam Khoa",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-19T08:40:49"
+        },
+        {
+            "id": "pzl_710203409283639598",
+            "inserted_at": "2025-06-30T07:37:51",
+            "name": "Trợ Ly Quỳnh Anh Pk Bác Sĩ Đức Mạnh",
+            "parent_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:12:46"
+        },
+        {
+            "id": "717581724767615",
+            "inserted_at": "2025-07-14T02:45:07",
+            "name": "Bác Sĩ Đức Mạnh",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:40"
+        },
+        {
+            "id": "534592766413410",
+            "inserted_at": "2025-03-25T06:36:39",
+            "name": "Bác Sĩ Đức Mạnh - Nam Khoa ",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:40"
+        },
+        {
+            "id": "652416737958091",
+            "inserted_at": "2025-06-11T01:54:50",
+            "name": "BS Đức Mạnh - Hỗ Trợ Nam Khoa",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-18T13:10:37"
+        },
+        {
+            "id": "pzl_773629496248613805",
+            "inserted_at": "2025-03-25T02:58:45",
+            "name": "Bác Sĩ Đức Mạnh",
+            "parent_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T01:18:55"
+        },
+        {
+            "id": "650779454776811",
+            "inserted_at": "2025-04-15T01:04:47",
+            "name": "Bác Sĩ Đức Mạnh - Nam Khoa",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:23:47"
+        },
+        {
+            "id": "101262078315882",
+            "inserted_at": "2025-03-13T01:17:32",
+            "name": "Bác Sĩ Đức Mạnh - Nam Khoa Hà Nội",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:23:47"
+        },
+        {
+            "id": "611200585399454",
+            "inserted_at": "2025-02-27T06:57:50",
+            "name": "BS Đức Mạnh - Hỗ Trợ Nam Khoa",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:41"
+        },
+        {
+            "id": "601432913045974",
+            "inserted_at": "2025-02-25T01:09:48",
+            "name": "BS Đức Mạnh - Hỗ Trợ Nam Khoa",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:40"
+        },
+        {
+            "id": "487662047770349",
+            "inserted_at": "2025-01-16T03:57:46",
+            "name": "Phòng Khám Bảo Nam - BS Đức Mạnh",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-19T08:40:49"
+        },
+        {
+            "id": "pzl_774350939029259693",
+            "inserted_at": "2024-12-19T07:10:09",
+            "name": "Phòng Khám Bảo Nam",
+            "parent_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T01:18:55"
+        },
+        {
+            "id": "pzl_778670295043528493",
+            "inserted_at": "2024-11-30T10:21:46",
+            "name": "Trơ Lý Thúy Pk Bác Sĩ Đức Mạnh",
+            "parent_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T01:18:55"
+        },
+        {
+            "id": "471121122751353",
+            "inserted_at": "2024-11-04T05:12:06",
+            "name": "Bác Sĩ Đức Mạnh - Chuyên Gia Sinh Lý",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T00:20:39"
+        },
+        {
+            "id": "476442515557564",
+            "inserted_at": "2024-11-22T02:07:25",
+            "name": "Bác Sĩ Đức Mạnh",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:40"
+        },
+        {
+            "id": "503299469529896",
+            "inserted_at": "2024-11-22T06:48:32",
+            "name": "Chuyên Gia Nam Khoa Đức Mạnh",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:40"
+        },
+        {
+            "id": "pzl_831282951802136492",
+            "inserted_at": "2024-08-14T03:41:46",
+            "name": "Trơ Lý Hiền Pk Bác Sĩ Đức Mạnh",
+            "parent_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T01:18:55"
+        },
+        {
+            "id": "pzl_847149764532334380",
+            "inserted_at": "2024-07-26T02:23:01",
+            "name": "Trợ Lí Linh Pk Bác Sĩ Đức Mạnh",
+            "parent_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T01:18:55"
+        },
+        {
+            "id": "pzl_844754996396320428",
+            "inserted_at": "2024-07-26T02:09:42",
+            "name": "Trợ Lí Phương Pk Bác Sĩ Đức Mạnh",
+            "parent_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T01:18:55"
+        },
+        {
+            "id": "pzl_832759059106342060",
+            "inserted_at": "2024-03-22T04:42:53",
+            "name": "Trợ Lý Thanh Pk Bác Sĩ Đức Mạnh",
+            "parent_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T01:18:55"
+        },
+        {
+            "id": "pzl_356336972909760163",
+            "inserted_at": "2024-03-22T06:02:28",
+            "name": "Tro Lí Phương Pk Bs Đức Mạnh",
+            "parent_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T01:18:55"
+        },
+        {
+            "id": "pzl_848248382879514412",
+            "inserted_at": "2024-06-29T02:29:55",
+            "name": "Trợ Lí Nga Pk Bác Sĩ Đức Mạnh",
+            "parent_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T01:18:55"
+        },
+        {
+            "id": "476929315503501",
+            "inserted_at": "2024-11-11T06:59:50",
+            "name": "Phòng khám Bảo Nam -   Bác Sĩ Đức Mạnh",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:40"
+        },
+        {
+            "id": "pzl_833347898687563820",
+            "inserted_at": "2024-08-02T09:51:04",
+            "name": "Trơ Lý Yên Pk Bác Sĩ Đức Mạnh",
+            "parent_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T01:18:55"
+        },
+        {
+            "id": "pzl_343627637291211683",
+            "inserted_at": "2024-03-23T07:12:25",
+            "name": "Trợ Lí Xuân Pk Bác Sĩ Đức Mạnh",
+            "parent_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T01:18:55"
+        },
+        {
+            "id": "pzl_1792207844182773055",
+            "inserted_at": "2024-03-16T09:58:08",
+            "name": "Bác Sĩ Đức Mạnh",
+            "parent_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T01:59:53"
+        },
+        {
+            "id": "pzl_337866800007497763",
+            "inserted_at": "2024-03-22T04:56:57",
+            "name": "Trợ Lý Quyên Bác Sĩ Đức Mạnh",
+            "parent_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T01:18:55"
+        },
+        {
+            "id": "329846536875290",
+            "inserted_at": "2024-07-05T08:31:57",
+            "name": "Bác Sĩ Đức Mạnh - Chuyên Nam Khoa",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:24:49"
+        },
+        {
+            "id": "pzl_845356725572018604",
+            "inserted_at": "2024-08-14T03:32:59",
+            "name": "Trơ Lý Ngọc Pk Bác Sĩ Đức Mạnh",
+            "parent_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T01:18:55"
+        },
+        {
+            "id": "pzl_854652647140580012",
+            "inserted_at": "2024-08-13T01:11:18",
+            "name": "Trơ Lý Hà Pk Bs Đức Mạnh",
+            "parent_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T01:18:55"
+        },
+        {
+            "id": "pzl_855003807955499308",
+            "inserted_at": "2024-06-29T02:33:40",
+            "name": "Trợ Lí Lan Anh Pk Bác Sĩ Đức Mạnh",
+            "parent_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T01:18:55"
+        },
+        {
+            "id": "pzl_856576890754790316",
+            "inserted_at": "2024-07-26T02:14:28",
+            "name": "Trơ Lý Trang Pk Bác Sĩ Đức Mạnh",
+            "parent_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T01:47:56"
+        },
+        {
+            "id": "pzl_852585449193907628",
+            "inserted_at": "2024-05-31T07:10:37",
+            "name": "Trợ Lí Xuân Pk Bác Sĩ Đức Mạnh",
+            "parent_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T01:27:35"
+        },
+        {
+            "id": "pzl_829133707088486700",
+            "inserted_at": "2024-07-26T02:13:19",
+            "name": "Trơ Lý Linh Pk Bác Sĩ Đức Mạnh",
+            "parent_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T01:18:55"
+        },
+        {
+            "id": "pzl_847989237449744556",
+            "inserted_at": "2024-04-23T07:25:13",
+            "name": "Trợ Lý Dung Pk Bác Sĩ Đức Mạnh",
+            "parent_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:09:59"
+        },
+        {
+            "id": "pzl_857841689973698476",
+            "inserted_at": "2024-04-12T06:24:08",
+            "name": "Trơ Lý Hương Pk Bs Đức Mạnh",
+            "parent_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T01:18:55"
+        },
+        {
+            "id": "pzl_833333785419447852",
+            "inserted_at": "2024-06-20T01:44:10",
+            "name": "Trơ Lý Giang Pk Bs Đức Mạnh",
+            "parent_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T01:18:55"
+        },
+        {
+            "id": "pzl_839463334874588076",
+            "inserted_at": "2024-08-14T03:34:45",
+            "name": "Trơ Lý Ngân Pk Bác Sĩ Đức Mạnh",
+            "parent_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T01:18:55"
+        },
+        {
+            "id": "pzl_347967551139544099",
+            "inserted_at": "2024-03-30T07:12:45",
+            "name": "Pk Bác Sĩ Đức Mạnh",
+            "parent_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2025-03-19T08:25:03"
+        },
+        {
+            "id": "pzl_850879402646968748",
+            "inserted_at": "2024-06-12T06:29:00",
+            "name": "Trơ Lý Phương Anh Pk Bác Sĩ Đức Mạnh",
+            "parent_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T01:18:55"
+        },
+        {
+            "id": "pzl_326035003465351971",
+            "inserted_at": "2024-03-22T04:52:51",
+            "name": "Trợ Lý Nhung Bác Sĩ Đức Mạnh",
+            "parent_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:26:03"
+        },
+        {
+            "id": "pzl_332931694312735907",
+            "inserted_at": "2024-03-22T07:27:49",
+            "name": "Trợ Lý Vân Anh Pk Bác Sĩ Đức Mạnh",
+            "parent_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T01:18:55"
+        },
+        {
+            "id": "pzl_771978480577937581",
+            "inserted_at": "2024-09-10T07:27:56",
+            "name": "Trợ Ly Trang Pk Bác Sĩ Đức Mạnh",
+            "parent_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T01:18:55"
+        },
+        {
+            "id": "pzl_842245326636187308",
+            "inserted_at": "2024-08-22T04:45:47",
+            "name": "Trợ Lí Thanh Pk Bác Sĩ Đức Mạnh",
+            "parent_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T01:18:55"
+        },
+        {
+            "id": "pzl_848547548808423468",
+            "inserted_at": "2024-08-02T09:53:06",
+            "name": "Trơ Lý Phượng Pk Bác Sĩ Đức Mạnh",
+            "parent_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T01:18:55"
+        },
+        {
+            "id": "pzl_845143948622276268",
+            "inserted_at": "2024-03-22T06:03:08",
+            "name": "PK BS Đức Mạnh",
+            "parent_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2025-03-19T08:24:48"
+        },
+        {
+            "id": "471002826097055",
+            "inserted_at": "2024-11-11T03:57:58",
+            "name": "Bác Sĩ Đức Mạnh",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:40"
+        },
+        {
+            "id": "417161688157660",
+            "inserted_at": "2024-11-11T06:27:09",
+            "name": "Dr. Đức Mạnh - Nam Khoa",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:40"
+        },
+        {
+            "id": "366345253238036",
+            "inserted_at": "2024-11-11T03:31:40",
+            "name": "Bác Sĩ Đức Mạnh",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:42"
+        },
+        {
+            "id": "436907352834887",
+            "inserted_at": "2024-10-26T13:20:41",
+            "name": "Bác Sĩ Đức Mạnh ",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:24:52"
+        },
+        {
+            "id": "472857719247244",
+            "inserted_at": "2024-11-11T03:54:08",
+            "name": "Phòng Khám Bảo Nam - BS Đức Mạnh",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-19T08:40:49"
+        },
+        {
+            "id": "166837343180940",
+            "inserted_at": "2024-11-06T08:07:03",
+            "name": "Bác Sĩ Đức Mạnh - Chuyên Nam Khoa",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:43"
+        },
+        {
+            "id": "450407384825601",
+            "inserted_at": "2024-11-06T08:07:02",
+            "name": "Bác sĩ Đức Mạnh - Hỗ trợ sinh lý nam",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:40"
+        },
+        {
+            "id": "477307675463117",
+            "inserted_at": "2024-10-31T02:31:47",
+            "name": "Dr. Đức Mạnh - Cải thiện SL Nam",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T00:20:39"
+        },
+        {
+            "id": "483358204854784",
+            "inserted_at": "2024-10-28T04:25:14",
+            "name": "DR.Đức Mạnh - Hỗ Trợ Nam Khoa",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:40"
+        },
+        {
+            "id": "461735413681274",
+            "inserted_at": "2024-09-23T02:18:34",
+            "name": "BS Đức Mạnh - Chuyên Hỗ Trợ Nam Khoa  ",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T00:20:39"
+        },
+        {
+            "id": "475484398975941",
+            "inserted_at": "2024-10-25T00:16:35",
+            "name": "Bác sĩ Đức Mạnh - Cải thiện sinh lý phái nam",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-19T08:40:49"
+        },
+        {
+            "id": "300062306529911",
+            "inserted_at": "2024-10-25T00:16:35",
+            "name": "Bác sĩ Đức Mạnh - Chuyên Gia Nam Khoa",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-19T08:40:50"
+        },
+        {
+            "id": "343527232173698",
+            "inserted_at": "2024-09-25T03:44:19",
+            "name": "Bác sĩ nam khoa Đức Mạnh ",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-01T18:06:36"
+        },
+        {
+            "id": "422346080967271",
+            "inserted_at": "2024-10-07T04:12:01",
+            "name": "Bác Sĩ Đức Mạnh - Chuyên Nam Khoa",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:23:47"
+        },
+        {
+            "id": "455684284290761",
+            "inserted_at": "2024-10-07T04:15:00",
+            "name": "Bác Sĩ Đức Mạnh - Chuyên Sinh Lý Nam",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:41"
+        },
+        {
+            "id": "423356334193423",
+            "inserted_at": "2024-09-20T01:53:41",
+            "name": "Sinh Lý - Nam Khoa Dr.Đức Mạnh",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:41"
+        },
+        {
+            "id": "469857579538592",
+            "inserted_at": "2024-10-01T04:57:26",
+            "name": "Bác sĩ Đức Mạnh - Sinh Lý Nam",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-19T08:40:49"
+        },
+        {
+            "id": "454713231049052",
+            "inserted_at": "2024-09-24T16:40:39",
+            "name": "Bác sĩ Đức Mạnh - Chuyên Nam Khoa",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-18T13:10:38"
+        },
+        {
+            "id": "pzl_828819495891543980",
+            "inserted_at": "2024-09-24T06:46:21",
+            "name": "Bác Sĩ Đức Mạnh Phòng Khám Nam Khoa",
+            "parent_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:24:45"
+        },
+        {
+            "id": "400251273163022",
+            "inserted_at": "2024-07-18T03:29:19",
+            "name": "DR. Đức Mạnh - Chuyên Nam Khoa ",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-19T08:40:54"
+        },
+        {
+            "id": "425774557275475",
+            "inserted_at": "2024-08-14T02:48:29",
+            "name": "Bác Sĩ Đức Mạnh -  Nam Khoa",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T00:20:39"
+        },
+        {
+            "id": "pzl_336143251466869027",
+            "inserted_at": "2024-06-12T07:12:59",
+            "name": "Phòng Khám Bác Sĩ Đức Mạnh",
+            "parent_id": null,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T01:18:54"
+        },
+        {
+            "id": "398825069983006",
+            "inserted_at": "2024-08-29T08:12:47",
+            "name": "BÁC SĨ ĐỨC MẠNH",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-19T08:40:55"
+        },
+        {
+            "id": "343059128901032",
+            "inserted_at": "2024-08-23T03:14:57",
+            "name": "Bác sĩ Đức Mạnh - Chuyên gia về Nam Khoa ",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:41"
+        },
+        {
+            "id": "336640456210135",
+            "inserted_at": "2024-08-21T06:53:26",
+            "name": "Bác Sĩ Đức Mạnh - Chuyên Khoa Nam Khoa",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:49"
+        },
+        {
+            "id": "392217830643095",
+            "inserted_at": "2024-08-23T02:37:58",
+            "name": "Nam Khoa Đức Mạnh - Đánh thức bản lĩnh đàn ông ",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:42"
+        },
+        {
+            "id": "424732407381008",
+            "inserted_at": "2024-08-19T02:15:21",
+            "name": "Bác sĩ Đức Mạnh - B.S Chuyên Nam Khoa",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:23:47"
+        },
+        {
+            "id": "415656978291675",
+            "inserted_at": "2024-08-16T03:49:07",
+            "name": "Bác Sĩ Đức Mạnh - Nam Khoa",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:41"
+        },
+        {
+            "id": "347666125105801",
+            "inserted_at": "2024-08-14T02:46:27",
+            "name": "Bác sĩ Đức Mạnh - Nam Khoa",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:23:47"
+        },
+        {
+            "id": "360462550489078",
+            "inserted_at": "2024-07-22T07:08:05",
+            "name": "Sinh Lý Nam - Bác Sĩ Đức Mạnh",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-19T08:40:49"
+        },
+        {
+            "id": "112359103739276",
+            "inserted_at": "2020-05-07T08:27:15",
+            "name": "Bác Sĩ Đức Mạnh",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:43"
+        },
+        {
+            "id": "273975481079125",
+            "inserted_at": "2022-05-30T07:37:05",
+            "name": "Bác sĩ Đức Mạnh - Mera Group",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:43"
+        },
+        {
+            "id": "110338705127513",
+            "inserted_at": "2024-01-10T02:41:45",
+            "name": "Bác Sĩ Đức Mạnh - Chuyên Nam Khoa",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:24:56"
+        },
+        {
+            "id": "225135930679198",
+            "inserted_at": "2024-02-23T03:04:29",
+            "name": "Bác Sĩ Đức Mạnh",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:43"
+        },
+        {
+            "id": "349975364871451",
+            "inserted_at": "2024-07-15T13:30:01",
+            "name": "Bác Sĩ Đức Mạnh",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:23:47"
+        },
+        {
+            "id": "357388757461287",
+            "inserted_at": "2024-07-15T12:31:33",
+            "name": "Bác Sĩ Đức Mạnh",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-19T08:40:49"
+        },
+        {
+            "id": "100276215860327",
+            "inserted_at": "2024-01-10T08:31:23",
+            "name": "Bác Sĩ Đức Mạnh - Hỗ Trợ Nam Khoa",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:43"
+        },
+        {
+            "id": "101837114714197",
+            "inserted_at": "2024-01-11T05:25:45",
+            "name": "Dr. Đức Mạnh",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:23:47"
+        },
+        {
+            "id": "2496133563751642",
+            "inserted_at": "2022-03-30T07:06:41",
+            "name": "Bác sĩ Nam Khoa Đức Mạnh - Mera Group",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-19T23:37:26"
+        },
+        {
+            "id": "196059750263125",
+            "inserted_at": "2024-01-15T09:09:31",
+            "name": "Bác Sĩ Nam Khoa - Đức Mạnh",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:43"
+        },
+        {
+            "id": "186245637913829",
+            "inserted_at": "2024-01-16T02:44:22",
+            "name": "Bác Sĩ Đức Mạnh",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:43"
+        },
+        {
+            "id": "108463295374448",
+            "inserted_at": "2024-01-08T10:29:56",
+            "name": "Bác sĩ Đức Mạnh - Chuyên Nam Khoa",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:43"
+        },
+        {
+            "id": "225621060626951",
+            "inserted_at": "2024-01-18T10:33:17",
+            "name": "Phòng Khám Bảo Nam - BS Đức Mạnh",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:43"
+        },
+        {
+            "id": "104385215315397",
+            "inserted_at": "2023-06-17T02:13:36",
+            "name": "Phòng Khám Bảo Nam - Bác Sĩ Đức Mạnh",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:43"
+        },
+        {
+            "id": "104235355455573",
+            "inserted_at": "2024-01-16T06:42:10",
+            "name": "Bác Sĩ Đức Mạnh - Nam Khoa",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:24:44"
+        },
+        {
+            "id": "104119318901853",
+            "inserted_at": "2024-02-01T07:39:14",
+            "name": "Bác Sĩ Đức Mạnh",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-19T23:37:26"
+        },
+        {
+            "id": "130249363505615",
+            "inserted_at": "2024-02-23T02:05:42",
+            "name": "Bác Sĩ Đức Mạnh",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:43"
+        },
+        {
+            "id": "103479181648774",
+            "inserted_at": "2024-03-03T16:07:46",
+            "name": "Bác Sĩ Đức Mạnh - Hỗ Trợ Nam Khoa",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:43"
+        },
+        {
+            "id": "641128856304575",
+            "inserted_at": "2023-09-23T14:11:44",
+            "name": "Đỗ Đức Mạnh - Bác Sĩ Nam Khoa",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:43"
+        },
+        {
+            "id": "268004259725595",
+            "inserted_at": "2024-03-16T07:22:43",
+            "name": "Nam Khoa - Dr. Đức Mạnh",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:43"
+        },
+        {
+            "id": "247305611806008",
+            "inserted_at": "2024-03-23T07:41:25",
+            "name": "Bác Sĩ Đức Mạnh - Hỗ Trợ Cải Thiện Sinh Lý Nam",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:43"
+        },
+        {
+            "id": "204393359435026",
+            "inserted_at": "2024-03-20T01:38:49",
+            "name": "Phòng Khám Nam Khoa - Bác Sĩ Đức Mạnh",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:43"
+        },
+        {
+            "id": "118507984495325",
+            "inserted_at": "2024-03-23T07:31:18",
+            "name": "Hỗ Trợ Nam Khoa - Bác Sĩ Đức Mạnh",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:43"
+        },
+        {
+            "id": "247418455126814",
+            "inserted_at": "2024-03-23T07:24:54",
+            "name": "Bác Sĩ Đức Mạnh - Chuyên Khoa Nam",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:43"
+        },
+        {
+            "id": "259833530548211",
+            "inserted_at": "2024-03-27T01:25:28",
+            "name": "Chữa Sinh Lý Nam Chuẩn Y Khoa - Bác Sĩ Đức Mạnh",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:43"
+        },
+        {
+            "id": "245459155325142",
+            "inserted_at": "2024-04-10T04:09:17",
+            "name": "Bác Sĩ Đức Mạnh - Hỗ Trợ Nam Khoa",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:43"
+        },
+        {
+            "id": "285146788010301",
+            "inserted_at": "2024-04-06T06:17:59",
+            "name": "Bác Sĩ Đức Mạnh- Bác Sĩ Chuyên Khoa Nam Khoa",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:43"
+        },
+        {
+            "id": "102993585662100",
+            "inserted_at": "2024-04-14T10:08:25",
+            "name": "Bác Sĩ Đức Mạnh",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:43"
+        },
+        {
+            "id": "269263076276643",
+            "inserted_at": "2024-04-17T02:46:52",
+            "name": "Bác Sĩ Đức Mạnh - Chuyên Nam Khoa",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:42"
+        },
+        {
+            "id": "291668000696443",
+            "inserted_at": "2024-04-17T02:29:15",
+            "name": "Chuyên Gia Nam Khoa - Bs Đức Mạnh",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:23:47"
+        },
+        {
+            "id": "258225184048956",
+            "inserted_at": "2024-04-17T02:43:59",
+            "name": "Phòng Khám Bảo Nam - Bác Sĩ Đức Mạnh",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:42"
+        },
+        {
+            "id": "108947534591190",
+            "inserted_at": "2024-05-09T12:51:51",
+            "name": "BS Đức Mạnh - Hỗ Trợ Nam Khoa",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:23:47"
+        },
+        {
+            "id": "339735829213213",
+            "inserted_at": "2024-05-13T09:49:36",
+            "name": "Bác Sĩ Đức Mạnh - Hỗ Trợ Nam Khoa",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-18T13:10:37"
+        },
+        {
+            "id": "275268515674139",
+            "inserted_at": "2024-04-19T01:52:34",
+            "name": "Dr. Đức Mạnh - Chuyên Gia Nam Khoa",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:23:47"
+        },
+        {
+            "id": "247900541750729",
+            "inserted_at": "2024-05-17T01:04:55",
+            "name": "Bác Sĩ Đức Mạnh Nam Khoa",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:42"
+        },
+        {
+            "id": "310726348795037",
+            "inserted_at": "2024-06-04T09:34:16",
+            "name": "Bác sĩ Đức Mạnh",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:42"
+        },
+        {
+            "id": "337573802780387",
+            "inserted_at": "2024-06-20T02:57:09",
+            "name": "Bác Sĩ Đức Mạnh - Chuyên Sinh Lý Nam ",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:23:47"
+        },
+        {
+            "id": "318464468024237",
+            "inserted_at": "2024-06-22T08:04:31",
+            "name": "Bác Sĩ Đức Mạnh - Nam Khoa",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:42"
+        },
+        {
+            "id": "332300999970726",
+            "inserted_at": "2024-06-18T02:09:49",
+            "name": "Bác Sĩ Đức Mạnh - Nam Khoa",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:23:47"
+        },
+        {
+            "id": "374241183290319",
+            "inserted_at": "2022-03-30T07:06:41",
+            "name": "Bác Sĩ Đức Mạnh",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:43"
+        },
+        {
+            "id": "397029030151065",
+            "inserted_at": "2024-07-21T12:50:01",
+            "name": "Bác Sĩ Đức Mạnh - Chuyên Sinh Lý Nam",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:42"
+        },
+        {
+            "id": "399525229900966",
+            "inserted_at": "2024-07-21T12:50:01",
+            "name": "Bác Sĩ Đức Mạnh - Nam Khoa chuyên Sinh Lý",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-19T08:40:49"
+        },
+        {
+            "id": "392504153941736",
+            "inserted_at": "2024-07-19T07:06:26",
+            "name": "Bác Sĩ Đức Mạnh - Chuyên Nam Khoa",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:27:13"
+        },
+        {
+            "id": "357676417425799",
+            "inserted_at": "2024-06-18T06:22:41",
+            "name": "Bác Sĩ Đức Mạnh",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:24:59"
+        },
+        {
+            "id": "363230246877091",
+            "inserted_at": "2024-07-21T11:27:55",
+            "name": "Bác Sĩ Đức Mạnh",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:49"
+        },
+        {
+            "id": "400296506492725",
+            "inserted_at": "2024-07-18T03:29:19",
+            "name": "BS Đức Mạnh - Hỗ Trợ Nam Khoa",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:24:58"
+        },
+        {
+            "id": "376965492165643",
+            "inserted_at": "2024-07-15T10:22:53",
+            "name": "Bác Sĩ Đức Mạnh",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-19T08:40:49"
+        },
+        {
+            "id": "373004505899186",
+            "inserted_at": "2024-08-03T02:03:26",
+            "name": "Bác sĩ Đức Mạnh",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:23:47"
+        },
+        {
+            "id": "391662904031997",
+            "inserted_at": "2024-08-02T13:15:18",
+            "name": "Bác Sĩ Đức Mạnh - Sinh Lý Nam",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:41"
+        },
+        {
+            "id": "379399798589661",
+            "inserted_at": "2024-07-21T12:50:01",
+            "name": "Bác Sĩ Mạnh - Sinh Lý Nam",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-19T08:40:49"
+        },
+        {
+            "id": "393675093826419",
+            "inserted_at": "2024-08-02T09:27:48",
+            "name": "Bác Sĩ Đức Mạnh - Khoa Sinh Lý Nam",
+            "parent_id": -1,
+            "shop_id": 1546758,
+            "updated_at": "2026-03-20T02:20:41"
+        }
+    ],
+    "success": true
+}
