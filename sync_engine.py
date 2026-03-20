@@ -58,6 +58,10 @@ def _str(val):
     if isinstance(val, str): return val.strip() or None
     return str(val) if val is not None else None
 
+def _now_dt(val):
+    """Return current datetime — used for _now special key."""
+    return datetime.now()
+
 def _get_nested(row, path, default=None):
     keys = path.split(".")
     val = row
@@ -77,59 +81,91 @@ def _get_nested(row, path, default=None):
     return val
 
 FIELD_MAPS = {
+    # ── products ──────────────────────────────────────────────
+    # API: GET /products/{product_id} → product.json (data is direct object)
     "products": {
         "table": "products", "primary_key": "id",
         "fields": {
-            "product_id": "id", "shop_id": "shop_id",
-            "product.display_id": "display_id", "product.name": "name",
-            "product.image": "image", "product.is_published": "is_published",
-            "product.note": "note", "product.note_product": "note_product",
-            "product.measure_group_id": "measure_group_id",
-            "product.created_at": "created_at",
-            "product.updated_at": "updated_at",
-            "product.custom_id": "custom_id",
-            "product.type": "type",
-            "product.brand_id": "brand_id",
-            "product.is_composite": "is_composite",
+            "id": "id", "shop_id": "shop_id",
+            "display_id": "display_id", "name": "name",
+            "image": "image", "is_published": "is_published",
+            "note": "note", "note_product": "note_product",
+            "measure_group_id": "measure_group_id",
+            "inserted_at": "created_at",
+            "_now": "updated_at",
+            "type": "type",
+            "custom_id": "custom_id",
         },
         "transforms": {
-            "shop_id": _int, "product.is_published": _int,
-            "product.measure_group_id": _int,
-            "product.created_at": _dt, "product.updated_at": _dt,
-            "product.brand_id": _int,
-            "product.is_composite": _int,
+            "shop_id": _int,
+            "is_published": _int,
+            "measure_group_id": _int,
+            "inserted_at": _dt,
+            "_now": _now_dt,
         },
     },
+    # ── variations ─────────────────────────────────────────────
+    # API: GET /products/variations → variations.json (data is array)
+    # Each row has top-level fields + nested variations_warehouses
     "variations": {
         "table": "product_variations", "primary_key": "id",
         "fields": {
-            "id": "id", "product_id": "product_id", "shop_id": "shop_id",
-            "name": "name", "display_id": "display_id", "barcode": "barcode",
+            "id": "id", "product_id": "product_id",
+            "display_id": "display_id", "barcode": "barcode",
             "retail_price": "retail_price",
             "average_imported_price": "average_imported_price",
             "price_at_counter": "price_at_counter",
             "last_imported_price": "last_imported_price",
             "retail_price_after_discount": "retail_price_after_discount",
-            "total_purchase_price": "total_purchase_price",
-            "wholesale_price": "wholesale_price",
-            "tax_rate": "tax_rate", "weight": "weight",
+            "weight": "weight",
             "is_hidden": "is_hidden", "is_locked": "is_locked",
             "is_composite": "is_composite", "is_removed": "is_removed",
             "is_sell_negative_variation": "is_sell_negative_variation",
+            "is_vat_inclusive": "is_vat_inclusive",
             "remain_quantity": "remain_quantity",
             "inserted_at": "inserted_at",
+            "product.name": "name",
         },
         "transforms": {
-            "shop_id": _int, "retail_price": _dec2,
+            "retail_price": _dec2,
             "average_imported_price": _dec2, "price_at_counter": _dec2,
             "last_imported_price": _dec2, "retail_price_after_discount": _dec2,
-            "total_purchase_price": _dec2, "wholesale_price": _dec2,
-            "tax_rate": _float, "weight": _float,
+            "weight": _float,
             "is_hidden": _int, "is_locked": _int,
             "is_composite": _int, "is_removed": _int,
             "is_sell_negative_variation": _int,
+            "is_vat_inclusive": _int,
             "remain_quantity": _int,
             "inserted_at": _dt6,
+        },
+    },
+    # ── variation_warehouse_stock ───────────────────────────────
+    # Nested in product.json → variations[] → variations_warehouses[]
+    # Or nested in variations.json → variations_warehouses[]
+    "variation_warehouse_stock": {
+        "table": "variation_warehouse_stock",
+        "primary_key": None,   # composite key (variation_id, warehouse_id)
+        "fields": {
+            "variation_id": "variation_id",
+            "warehouse_id": "warehouse_id",
+            "remain_quantity": "remain_quantity",
+            "actual_remain_quantity": "actual_remain_qty",
+            "pending_quantity": "pending_quantity",
+            "waiting_quantity": "waiting_quantity",
+            "returning_quantity": "returning_quantity",
+            "total_quantity": "total_quantity",
+            "selling_avg": "selling_avg",
+            "_now": "updated_at",
+        },
+        "transforms": {
+            "remain_quantity": _int,
+            "actual_remain_quantity": _int,
+            "pending_quantity": _int,
+            "waiting_quantity": _int,
+            "returning_quantity": _int,
+            "total_quantity": _int,
+            "selling_avg": _float,
+            "_now": _now_dt,
         },
     },
     "orders": {
@@ -369,7 +405,10 @@ def transform_row(row, entity):
     result = {}
     transforms = fm.get("transforms", {})
     for api_key, db_col in fm["fields"].items():
-        val = _get_nested(row, api_key, row.get(api_key))
+        if api_key == "_now":
+            val = _now_dt(None)
+        else:
+            val = _get_nested(row, api_key, row.get(api_key))
         if db_col in transforms:
             val = transforms[db_col](val)
         elif val is not None:
@@ -399,28 +438,24 @@ def extract_from_order_detail(order_detail):
     return {}, {}, items, payments
 
 
-def extract_products_from_variations(variation_data):
-    """Extract products from variations API response.
-    Each variation has a nested 'product' object + 'product_id' field.
-    product_id lives on the variation, not inside the nested product dict.
-    Returns list of product dicts (deduped by product_id).
+def extract_warehouse_stock_from_product(product_detail):
+    """Extract variation_warehouse_stock rows from GET /products/{id} response.
+    Each variation in product_detail.variations[] has a variations_warehouses[].
+    Returns list of flat warehouse-stock rows.
     """
-    import config as _cfg
-    seen = set()
-    products = []
-    for var in variation_data:
-        prod = var.get("product")
-        if not prod:
+    rows = []
+    for var in product_detail.get("variations", []):
+        vid = var.get("id")
+        if not vid:
             continue
-        pid = var.get("product_id")
-        if pid and pid not in seen:
-            seen.add(pid)
-            row = {"product_id": pid, "shop_id": int(_cfg.SHOP_ID)}
-            # Flatten nested product fields so field mapping "product.xxx" works
-            for k, v in prod.items():
-                row[f"product.{k}"] = v
-            products.append(row)
-    return products
+        for vw in var.get("variations_warehouses", []):
+            wid = vw.get("warehouse_id")
+            if not wid:
+                continue
+            row = dict(vw)
+            row["variation_id"] = vid
+            rows.append(row)
+    return rows
 
 
 def extract_addresses_from_customers(customer_data):

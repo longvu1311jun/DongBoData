@@ -1,7 +1,12 @@
 {
+  "variations": {
+    "page": 2,
+    "total_pages": 1,
+    "total_entries": 96
+  },
   "customers": {
-    "page": 156,
-    "total_pages": 222,
-    "total_entries": 221577
+    "page": 569,
+    "total_pages": 1109,
+    "total_entries": 221666
   }
 }

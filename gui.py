@@ -258,7 +258,6 @@ class App:
 
         entities = [
             ("variations",    "🔀  Variations",    "Biến thể SP"),
-            ("products",       "📦  Products",      "Sản phẩm"),
             ("customers",     "👤  Customers",     "Khách hàng"),
             ("orders",        "🧾  Orders",         "Đơn hàng"),
             ("warehouses",    "🏭  Warehouses",     "Kho hàng"),
@@ -312,7 +311,6 @@ class App:
 
         entities = [
             ("variations",    "Variations"),
-            ("products",       "Products"),
             ("customers",     "Customers"),
             ("orders",        "Orders"),
             ("warehouses",    "Warehouses"),
@@ -489,8 +487,8 @@ class App:
         self._log("INFO",   f"  API: {base_url}")
         self._log("INFO",   f"  Entities: {', '.join(selected)}")
 
-        # Sync order (respect FK): variations → products → customers → orders → ...
-        sync_order = ["variations", "products", "customers", "orders", "warehouses",
+        # Sync order (respect FK): variations (includes products + warehouse stock)
+        sync_order = ["variations", "customers", "orders", "warehouses",
                       "categories", "tags", "order_sources", "users"]
         to_sync = [e for e in sync_order if e in selected]
 
@@ -498,7 +496,7 @@ class App:
         all_addresses = {}     # extracted from customers API
         all_order_items = {}   # extracted from order detail
         all_payments = {}      # extracted from order detail
-        all_products = {}      # extracted from variations API
+        all_warehouse_stock = {}  # extracted from product detail → upserted later
 
         api = api_module.ApiClient()
         api.base_url = base_url  # override from GUI input
@@ -588,22 +586,132 @@ class App:
 
                     self._set_progress(entity, 100, f"✓ {total_orders} orders", T.GREEN)
 
-                elif entity == "products":
-                    # ── PRODUCTS: upsert products extracted from variations ──
-                    self._log("INFO", f"  📦 Upserting {len(all_products)} products...")
-                    if all_products:
-                        prod_rows = list(all_products.values())
-                        prod_transformed = sync_engine.transform_batch(prod_rows, "products")
-                        ins, upd = self.db.upsert_batches("products", prod_transformed,
+                elif entity == "variations":
+                    # ── VARIATIONS: paginated → per-product sequential upsert ──
+                    # Step 1: fetch all variation pages, group rows by product_id
+                    all_var_rows_by_pid = {}   # {product_id: [raw_row, ...]}
+                    seen_product_ids = set()
+
+                    def on_page_var(data):
+                        for var in data:
+                            pid = var.get("product_id")
+                            if pid:
+                                seen_product_ids.add(pid)
+                                all_var_rows_by_pid.setdefault(pid, []).append(var)
+
+                    def on_progress_var(page, total_pages, page_cnt, total_entries):
+                        pct = int(page * 100 / max(total_pages, 1))
+                        self._set_progress(entity, pct,
+                            f"Page {page}/{total_pages} ({page_cnt} rows)...", T.SUBTEXT)
+                        self._log("INFO", f"  Page {page}/{total_pages} — "
+                                          f"{page_cnt} rows, total {total_entries}")
+                        config.save_checkpoint(entity, page, total_pages, total_entries)
+
+                    ck = config.get_checkpoint(entity)
+                    resume_from = ck.get("page", 0) + 1
+                    if resume_from > 1:
+                        self._log("INFO", f"  → Resuming from page {resume_from} (checkpoint found)")
+
+                    api.fetch_pages(endpoint, on_page=on_page_var,
+                        on_progress=on_progress_var,
+                        stop_check=lambda: False, delay=0.1,
+                        resume_from=resume_from)
+
+                    total_pids = len(seen_product_ids)
+                    self._log("INFO", f"  → Found {total_pids} unique product_ids — "
+                                      f"processing sequentially...")
+
+                    if total_pids == 0:
+                        self._set_progress(entity, 100, "✓ 0 variations", T.GREEN)
+                        continue
+
+                    # Step 2: for each product_id → fetch product → upsert product →
+                    #         upsert its variations → extract warehouse stock
+                    total_vars_ins = 0
+                    total_vars_upd = 0
+                    total_prods_ins = 0
+                    total_prods_upd = 0
+                    pids_done = 0
+
+                    for pid in seen_product_ids:
+                        pids_done += 1
+                        pct = int(pids_done * 100 / total_pids)
+                        self._set_progress(entity, pct,
+                            f"Product {pids_done}/{total_pids}...", T.SUBTEXT)
+
+                        # Fetch product detail
+                        prod_data = api.fetch_product(pid)
+                        if not prod_data:
+                            self._log("WARN", f"  ! Skipping product {pid}: not found")
+                            continue
+
+                        prod_id = prod_data.get("id")
+                        if not prod_id:
+                            self._log("WARN", f"  ! Skipping product {pid}: no id")
+                            continue
+
+                        # Upsert product
+                        prod_rows = sync_engine.transform_batch([prod_data], "products")
+                        if prod_rows:
+                            row = prod_rows[0]
+                            row["shop_id"] = config.SHOP_ID
+                            # Inject defaults for NOT NULL columns not in API
+                            row.setdefault("brand_id", "")
+                            row.setdefault("is_composite", 0)
+                            row.setdefault("created_at", None)
+                            ins, upd = self.db.upsert_batches("products", prod_rows, batch_size=200)
+                            total_prods_ins += ins
+                            total_prods_upd += upd
+
+                        # Upsert variations belonging to this product
+                        var_data = all_var_rows_by_pid.get(pid, [])
+                        if var_data:
+                            var_rows = sync_engine.transform_batch(var_data, entity)
+                            for row in var_rows:
+                                row["shop_id"] = config.SHOP_ID
+                                # Inject defaults for NOT NULL columns not in API
+                                row.setdefault("retail_price", 0)
+                                row.setdefault("retail_price_original", 0)
+                                row.setdefault("avg_price", 0)
+                                row.setdefault("last_imported_price", 0)
+                                row.setdefault("tax_rate", 0)
+                                row.setdefault("is_upsale_product", 0)
+                                row.setdefault("is_sell_negative", 0)
+                                row.setdefault("total_purchase_price", 0)
+                                row.setdefault("wholesale_price", 0)
+                                row.setdefault("is_vat_inclusive", 0)
+                            ins, upd = self.db.upsert_batches(
+                                sync_engine.FIELD_MAPS[entity]["table"],
+                                var_rows, batch_size=200)
+                            total_vars_ins += ins
+                            total_vars_upd += upd
+
+                        # Extract and buffer warehouse stock from product detail
+                        raw_ws = sync_engine.extract_warehouse_stock_from_product(prod_data)
+                        ws_rows = sync_engine.transform_batch(raw_ws, "variation_warehouse_stock")
+                        for r in ws_rows:
+                            wid = r.get("variation_id")
+                            wwid = r.get("warehouse_id")
+                            if wid and wwid:
+                                all_warehouse_stock[f"{wid}_{wwid}"] = r
+
+                    self._current_stats[entity] = (total_vars_ins, total_vars_upd)
+                    self._log("SUCCESS",
+                        f"  ✓ Variations DB: +{total_vars_ins} / ~{total_vars_upd}")
+                    self._log("SUCCESS",
+                        f"  ✓ Products DB: +{total_prods_ins} / ~{total_prods_upd}")
+                    self._set_progress(entity, 100,
+                        f"✓ {total_pids} products", T.GREEN)
+
+                    # Flush warehouse stock
+                    ws_rows = list(all_warehouse_stock.values())
+                    if ws_rows:
+                        ins, upd = self.db.upsert_batches(
+                            "variation_warehouse_stock", ws_rows,
                             batch_size=config.BATCH_INSERT)
-                        self._current_stats[entity] = (ins, upd)
+                        self._current_stats["variation_warehouse_stock"] = (ins, upd)
                         self._log("SUCCESS",
-                            f"  ✓ Products DB: +{ins} insert / ~{upd} update")
-                        self._set_progress(entity, 100,
-                            f"✓ +{ins} / ~{upd}", T.GREEN)
-                    else:
-                        self._log("INFO", "  → No products found in variations")
-                        self._set_progress(entity, 100, "✓ 0 products", T.GREEN)
+                            f"  ✓ Warehouse stock DB: +{ins} / ~{upd}")
 
                 elif entity == "customers":
                     # ── CUSTOMERS: paginated + extract addresses ──

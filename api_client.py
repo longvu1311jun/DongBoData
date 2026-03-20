@@ -66,7 +66,37 @@ class ApiClient:
 
         return all_results
 
-    # ── Fetch 1 order detail ──────────────────────────────────
+    # ── Fetch 1 product detail ─────────────────────────────────
+    def fetch_product(self, product_id: str) -> dict:
+        url = (f"{self.base_url}/shops/{self.shop_id}/products/{product_id}"
+               f"?api_key={self.api_key}")
+        resp = self._session.get(url, timeout=self.timeout)
+        resp.raise_for_status()
+        return resp.json().get("data", {})
+
+    # ── Fetch products in batch ────────────────────────────────
+    def fetch_products(self,
+                       product_ids: list,
+                       on_product: callable,
+                       on_progress: callable = None,
+                       stop_check: callable = None,
+                       delay: float = 0.05):
+        """Với mỗi product_id, gọi API chi tiết, gọi on_product(data)."""
+        total = len(product_ids)
+        for i, pid in enumerate(product_ids):
+            if stop_check and stop_check():
+                break
+            try:
+                detail = self.fetch_product(pid)
+                on_product(detail)
+            except Exception:
+                pass
+            if on_progress:
+                on_progress(i + 1, total)
+            if i < total - 1:
+                time.sleep(delay)
+
+    # ── Fetch order detail ──────────────────────────────────
     def fetch_order_detail(self, order_id: int) -> dict:
         endpoint = f"/orders/{order_id}"
         resp = self._session.get(

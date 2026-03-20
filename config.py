@@ -5,7 +5,7 @@
 # ── API Config (Pancake/POS pages.fm) ───────────────────────
 API_CONFIG = {
     "base_url": "https://pos.pages.fm/api/v1",
-    "timeout": 60,
+    "timeout": 120,
 }
 
 # Shop + API key — pre-filled từ file list_api.text
@@ -23,7 +23,9 @@ ENDPOINTS = {
     "tags":          ("/shops/{shop_id}/orders/tags",                     False),
     "order_sources": ("/shops/{shop_id}/order_source",                    False),
     "users":         ("/shops/{shop_id}/users",                           False),
-    # products: extracted from variations (nested in response)
+    "products":      ("/products",                                         False),  # fetched individually by ID
+    # products: fetched individually by product_id (GET /products/{id})
+    # variation_warehouse_stock: extracted from product detail, upserted separately
     # addresses: extracted from customers (nested in response)
 }
 
@@ -33,7 +35,7 @@ DB_CONFIG = {
     "port":     3306,
     "user":     "root",
     "password": "123123123",
-    "database": "pos_db",
+    "database": "pos_sync",
 }
 
 # ── Sync Config ──────────────────────────────────────────────
@@ -52,9 +54,9 @@ SYNC_CONFIG = {
 
 # ── App Settings ─────────────────────────────────────────────
 MAX_LOG_LINES = 500
-PAGE_SIZE = 1000        # page_size gửi lên API
+PAGE_SIZE = 200         # page_size gửi lên API
 BATCH_INSERT = 200     # batch upsert vào DB
-REQUEST_TIMEOUT = 60   # timeout cho API request (giây)
+REQUEST_TIMEOUT = 120  # timeout cho API request (giây)
 
 # ── Sync Checkpoint ──────────────────────────────────────────
 # Lưu page cuối cùng đã sync thành công cho từng entity.
